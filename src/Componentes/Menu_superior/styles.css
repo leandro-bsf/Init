@@ -1,0 +1,179 @@
+
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
+header{
+  width: 100%;
+ background-image: url(images/fundo_barra.png);
+ background-size: cover;
+}
+
+header .container {
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  height: 50%;
+  width: 90%; 
+  margin: auto;
+}
+
+
+header nav {
+  display: flex;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: rgb(246, 246, 246);
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif ;
+  font-size: 1.2rem;
+  padding: 2.0rem;
+  transition: all 250ms linear 0s;
+}
+
+header nav ul li a:hover {
+  font-size: 1.4rem;
+ 
+}
+header nav ul li a{
+  position: relative;
+  animation-name: menu;
+  animation-duration: 1s;
+  transition: 100ms;
+}
+.logo{
+    width: 100px;
+    height: 90px;
+    margin-left: 5%;
+
+
+}
+
+@keyframes menu {
+  0%   { left:0px; top: -100px;}
+  100% { left: 0px; top:0px;}
+  
+}
+
+@media (max-width: 750px){
+  html{
+    font-size: 50%;
+  }
+ .hero .container{
+   flex-direction: column;
+   text-align: center;
+  
+ }
+ .header nav{
+   position: relative;
+   top: 0;
+   margin: 0;
+   padding: 10px;
+ }
+ 
+
+ .form-group{
+   display: block;
+ }
+}
+
+@media (max-width: 1120px){
+ 
+   .menu-section nav{
+    display: none;
+  }
+
+  .one,
+  .two,
+  .three{
+    background-color:#f7f7f7;
+    height: 5px;
+    width: 100%;
+    margin: 6px auto;
+    transition-duration: 0.3s;
+  }
+  .menu-toggle{
+    width: 40px;
+    height: 30px;
+    margin-right: 20px;
+  }
+
+  /*Fullscreen*/
+  .menu-section.on {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #d3d1da;
+    z-index: 10; /*camada acima, evitar o scrool dos itens a baixo*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu-section.on nav{
+    display: block;
+  }
+
+  
+  .menu-section.on .menu-toggle{
+    position: absolute;
+    right: 25px;
+    top: 25px;
+  }
+
+  
+  .menu-section.on .menu-toggle .one{
+    transform: rotate(45deg) translate(7px, 7px);
+    background-color: #000000;
+  }
+
+  .menu-section.on .menu-toggle .two{
+   opacity: 0;
+
+  }
+
+  .menu-section.on .menu-toggle .three{
+    transform: rotate(-45deg) translate(8px, -9px);
+    background-color: #000000;
+  }
+
+  .menu-section.on nav ul{
+    text-align: center;
+    display: block;
+  }
+
+  .menu-section.on nav ul a{ 
+   transition-duration:  0.5s;
+   font-size: 2.0rem;
+    display: block;
+    color: #000000;
+    padding: 1.8rem;
+  }
+  
+
+  .menu-section.on nav ul .hide{ 
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 0rem;
+     font-size: 1.6rem;
+   }
+
+}
+
+@media (max-width: 320px){
+  #form h3{
+    font-size: 2rem;
+  }
+
+}

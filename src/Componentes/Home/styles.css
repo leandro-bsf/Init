@@ -1,0 +1,13 @@
+.Div_capa{
+    width: 100%;
+    height: 450px;
+   background-image: url(fundo_barra.png);
+    background-size: cover;
+    background-position: left;
+    text-align: center;
+    
+}
+
+.Div_capa h1 , span  {
+    color: aliceblue;
+}
