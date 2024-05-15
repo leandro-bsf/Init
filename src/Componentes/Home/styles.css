@@ -1,13 +1,147 @@
 .Div_capa{
     width: 100%;
-    height: 450px;
-   background-image: url(fundo_barra.png);
+    height: auto;
     background-size: cover;
     background-position: left;
     text-align: center;
+    display: flex;
+    margin: 20px;
+    align-items: center;
+  
+}
+.div_buttons_web button{
+    margin: 40px;
+    font-family: 'Quicksand';
+    font-size: 25px;
     
+    width: 300px;
+}
+.div_buttons_mobile{
+    display: none;
+ 
+}
+.Div_capa_1{
+    width: 50%;
+    color: rgb(5, 0, 0)  ;
+    height: auto;
+    
+    padding: 2%;
+    font-size: 35px;
+    font-family: 'Open Sans';
+    display: block;
+}
+.Div_capa_2{
+    width: 50%;
+    padding: 5%;
+    height: auto;
+   
+}
+.Div_capa_2 img{
+    width:600px;
+   height: auto;
+    align-items: center;
+
 }
 
-.Div_capa h1 , span  {
-    color: aliceblue;
+.Servicos{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 52%, rgba(241,241,241,1) 100%);
+   
+}
+.Servicos_itens{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    padding: 20px;
+    width: 80%;
+    justify-content: center;
+  
+}
+.icone_servicos{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 20px;
+}
+.Texto_car{
+    margin-top: 60px;
+}
+.item_card{
+    display: flex;
+    margin: 100px;
+    height: 420px;
+    width:  450px;
+     border: 0px;
+    font-size: 20px;
+    
+
+}
+.button_servicos{
+    font-family: 'Quicksand';
+    font-size: 25px;
+    width: 300px;
+}
+.titulo_servicos{
+    font-weight: bold;
+     font-size: 30px;
+    margin-top:  10px;
+}
+@media (max-width: 750px)  {
+    .Div_capa{
+        display: block;
+       margin-top: 50px;
+       width: 90%;
+       align-items: center;
+       height: 100%;
+    }
+    .Div_capa_1 ,.Div_capa_2  {
+            font-size: 15px;
+            width: 100%;
+            padding: 10px;
+            align-items: center;
+            height: auto;
+    }
+    .Div_capa_1  h2{
+        font-size: 20px;       
+    }
+    .Div_capa_2 img{
+       width: 80%;
+       margin: auto;
+       align-items: center; 
+    }
+    .div_buttons_mobile{
+        display: block;
+        width: 100%;
+        margin: auto;
+        align-items: center;  
+    }
+    .div_buttons_mobile button{
+        display: block;
+        border-radius: 10px;
+        width: 100%;
+        font-family: 'Quicksand';
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .div_buttons_web{
+        display: none;
+    }
+    .Servicos_itens{
+        display: block;
+    }
+    .item_card{
+        width: 100%;
+        margin: 10px;
+        font-size: 15px;
+    }
+    .titulo_servicos{
+        font-size: 15px;
+    }
+    .button_servicos{
+        font-size: 15px;
+    }
+
 }
