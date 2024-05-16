@@ -46,6 +46,7 @@
 .Servicos{
     width: 100%;
     align-items: center;
+    padding: 15px;
     text-align: center;
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 52%, rgba(241,241,241,1) 100%);
@@ -88,6 +89,31 @@
     font-weight: bold;
      font-size: 30px;
     margin-top:  10px;
+}
+.Div_Res_mob{
+
+    height: auto;
+    width: 100%;
+   padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+.Div_infe{
+    display: flex;
+
+}
+.Div_infe span {
+    width: 50%;
+    color: rgb(5, 0, 0)  ;
+    height: auto;
+    margin: auto;
+    font-size: 25px;
+    font-family: 'Open Sans';
+}
+.depoimentos{
+    align-items: center;
+    text-align: center;
+    padding: 15px;
 }
 @media (max-width: 750px)  {
     .Div_capa{
@@ -142,6 +168,17 @@
     }
     .button_servicos{
         font-size: 15px;
+    }
+    .Div_infe{
+        width: 100%;
+        display: block;
+       
+    }
+    .Div_Res_mob span , h2{
+        font-size: 15px;
+    }
+    .imagem_banner{
+        width: 90%;
     }
 
 }
