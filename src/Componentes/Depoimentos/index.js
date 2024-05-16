@@ -70,6 +70,7 @@ function Depoimentos() {
         
     <Button  variant="link" onClick={handleAnterior} ><IoIosArrowForward /> </Button>
       <div className="carousel-inner">
+        
         {cardsNaPagina.map((card) => (
           <div className="card" key={card.id}>
            

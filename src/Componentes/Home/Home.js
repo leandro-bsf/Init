@@ -1,7 +1,7 @@
 import React from "react"
 import Menu_Superior from "../Menu_superior/Menu_superior"
 import './styles.css';
-
+import Accordion from 'react-bootstrap/Accordion';
 import foto_banner  from  './imagens/image_banner.png'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
@@ -13,6 +13,9 @@ import TypeIt from "typeit-react";
 import banner2 from './imagens/banner2.png'
 import banner3 from './imagens/banner3.png'
 import Depoimentos from "../Depoimentos";
+import Perguntas from "../Perguntas";
+import Roda_pe from "../Roda_pe";
+
 export default function Home(){
    console.log('chegou na home')
     return(
@@ -115,6 +118,46 @@ export default function Home(){
          <Depoimentos/>
 
           </div>
+          <div className="Sobre_nos">
+            <h1>O que é  a Init.</h1>   
+          <h3> Descubra um pouco mais sobre <h3 style={{ color: '#38b6ff' }} >nós.</h3> </h3>
+          <span>
+          Criação de sites mobiles e responsivos. Sites que se adaptam a qualquer resolução de tela, sem criar barra de rolagem.
+         Em 2016, o acesso à internet via dispositivos móvel (ou mobile) ultrapassou os acessos via desktop.
+         Em 2016, o acesso à internet via dispositivos móvel (ou mobile) ultrapassou os acessos via desktop.
+         Em 2016, o acesso à internet via dispositivos móvel (ou mobile) ultrapassou os acessos via desktop.
+          </span>
+          </div>
+
+          <div className="Perguntas">
+          <h1>Perguntas Frequentes</h1>  
+          <h4> Veja as dúvidas frequentes e suas  <h4 style={{ color: '#38b6ff' }} >respostas.</h4> </h4>
+         
+             <Perguntas/>
+          </div>
+
+          <div className="contato">
+             <h1>Fale Conosco</h1>
+             <h4>Envie sua mensagem para um de nossos especialistas</h4>
+              <div className="form_contato">
+              <input placeholder='Nome' type='text'></input>
+             <input placeholder='Email' type='email'></input>
+             <input placeholder='Telefone' type='phone'></input>
+             <input placeholder='Mensagem' type='text'></input>
+             <button> Enviar</button>
+              </div>
+           
+          </div>
+          <div className="Solici_orcamento"  >
+             <h1>Solicite já seu orçamento!</h1>
+             <h4>Solicite seu orçamento agora mesmo que nossos consultores entrarão em contato.</h4>
+             <Button variant="info"  className="button_servicos">Orçamento <IoIosArrowForward /> </Button>  
+          </div>
+          
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7188.497017442679!2d-53.077024210012475!3d-25.729294244325963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f047d8e26e7057%3A0x8a642cc2991886d9!2sJardim%20da%20Colina%2C%20Dois%20Vizinhos%20-%20PR%2C%2085660-000!5e0!3m2!1spt-BR!2sbr!4v1715826299626!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className="mapa"></iframe>
+        
+         <Roda_pe/>
+
        </div>
    
     )

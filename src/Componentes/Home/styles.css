@@ -114,6 +114,68 @@
     align-items: center;
     text-align: center;
     padding: 15px;
+    height: auto;
+}
+
+.Sobre_nos{
+   
+    text-align: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+.Sobre_nos span {
+    font-size: 20px;
+}
+.Perguntas{
+    align-items: center;
+    text-align: center;
+ 
+    width: 100%;
+}
+.contato{
+    text-align: left;
+  
+    background-image:url('./imagens/Contato.png') ;
+    background-size: cover;
+    width: 100%;
+
+
+}
+.contato h1 , h4{
+    margin-left: 120px;
+}
+.form_contato{
+    display: grid;
+   
+    margin-left: 180px;
+    padding: 10px;
+ 
+    
+  
+}
+.form_contato  input , button{
+        margin: 10px;
+        color: rgb(245, 245, 245);
+        background-color: black;
+        width: 350px;
+        height: 40px;
+        border-radius: 20px;
+        padding: 10px;
+
+}
+.Solici_orcamento{
+    background-image: url('./imagens/orcamento.png');
+    text-align: center;
+    height: 340px;
+    align-items: center;
+    padding: 70px;
+    color: white;
+}
+.mapa{
+    width: 100%;
+    height: 350px;
 }
 @media (max-width: 750px)  {
     .Div_capa{
