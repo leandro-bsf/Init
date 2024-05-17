@@ -15,6 +15,7 @@ import banner3 from './imagens/banner3.png'
 import Depoimentos from "../Depoimentos";
 import Perguntas from "../Perguntas";
 import Roda_pe from "../Roda_pe";
+import '../Style_universal.css'
 
 export default function Home(){
    console.log('chegou na home')
@@ -24,8 +25,9 @@ export default function Home(){
          <div className="Div_capa">
              
                   <div className="Div_capa_1">
-                     <h2 style={{fontWeight: 'bold'}}>Uma página web responsiva é  <span style={{ color: '#38b6ff' }}   >ESSENCIAL</span></h2>
-                     <span>Garante uma experiência consistente em qualquer dispositivo Isso não apenas satisfaz os usuários, mas também impulsiona o alcance e o sucesso online do seu negócio.</span> 
+                     <h2  className="Titulo_h2">Uma página web responsiva é  <h2  className="Titulo_h2_azul"   >ESSENCIAL ? </h2></h2>
+                    
+                     <span className="Textos_secao">Garante uma experiência consistente em qualquer dispositivo Isso não apenas satisfaz os usuários, mas também impulsiona o alcance e o sucesso online do seu negócio.</span> 
                      <div className="div_buttons_web">
                        <Button variant="info">Vamos Conversar</Button>
                        <Button variant="info">Vamos Conversar</Button>
@@ -45,7 +47,7 @@ export default function Home(){
          <  div className="Servicos" >
 
           <h1>O que fazemos?</h1>
-          <h2>Veja quais <span style={{ color: '#38b6ff' }} >serviços</span>  oferecemos e como posso ajudar você</h2>
+          <h2 className="Titulo_h2">Veja quais <span className="Titulo_h2_azul" >serviços</span>  oferecemos e como posso ajudar você.</h2>
 
            <motion.div className="Servicos_itens" 
               initial={{opacity: 0 , x: -50}}
@@ -61,7 +63,7 @@ export default function Home(){
                    <TypeIt
         options={{
           strings: ["  Arquitetamos seu produto e desenvolvemos o conceito e comunicação visual. Por fim, é feito o design de todas as telas!"],
-          speed: 40,
+          speed: 90,
           waitUntilVisible: true,
         }}
       />
@@ -73,9 +75,14 @@ export default function Home(){
             <FaCode  className="icone_servicos" />
                 <Card.Body>
                    <Card.Title className="titulo_servicos"  >Desenvolvimento</Card.Title>
-                 <TypeIt className="Texto_car">
-                  Com o design pronto, nosso time de programadores irá dar vida ao projeto. Usando tecnologias de ponta, sua ideia vira realidade.
-                </TypeIt>
+                   <TypeIt
+        options={{
+          strings: ["  Com o design pronto, nosso time de programadores irá dar vida ao projeto. Usando tecnologias de ponta, sua ideia vira realidade."],
+          speed: 90,
+          
+          waitUntilVisible: true,
+        }} />
+
              </Card.Body>
           </Card>
 
@@ -89,7 +96,7 @@ export default function Home(){
           <h2>Criação de Sites <span style={{ color: '#38b6ff' }} >Responsivos </span>    e <span style={{ color: '#38b6ff' }} >Mobiles</span>  </h2>
             
             <div className="Div_infe" >        
-            <span>
+            <span  className="Textos_secao">
             Criação de sites mobiles e responsivos. Sites que se adaptam a qualquer resolução de tela, sem criar barra de rolagem.
             Em 2016, o acesso à internet via dispositivos móvel (ou mobile) ultrapassou os acessos via desktop.      
             </span>
@@ -97,13 +104,15 @@ export default function Home(){
             <img src={banner2} className="imagem_banner"></img>
        
             </div>
-            <h2>Nossos Projetos</h2>
-            <span>Conheça nossos<span style={{ color: '#38b6ff' }} > projetos</span>       já finalizados para nossos clientes.</span>
+            <h1>Nossos Projetos</h1>
+            <h2 className="Titulo_h2">Conheça nossos<span className="Titulo_h2_azul" > projetos</span>       já finalizados para nossos clientes.</h2>
+
             <div className="Div_infe" >        
-            <span>
-            Clique no botão abaixo para conhecer os projetos já efetuados pelo nosso time  <br/>
+            <span  className="Textos_secao">
+            Clique no botão abaixo para conhecer os projetos já efetuados pelo nosso time. 
+            <br/>
             <Button variant="info"  className="button_servicos">Portfólio <IoIosArrowForward /> </Button>   
-            </span>
+            </span> 
             <img src={banner3} className="imagem_banner"></img>
             </div>
 
@@ -113,15 +122,15 @@ export default function Home(){
             
           <h1>Depoimentos </h1>
          
-          <h2> O que nossos <span style={{ color: '#38b6ff' }} >clientes</span>    dizem sobre nós</h2>
+          <h2 className="Titulo_h2" > O que nossos <span  className="Titulo_h2_azul"  >clientes</span>    dizem sobre nós</h2>
 
          <Depoimentos/>
 
           </div>
           <div className="Sobre_nos">
             <h1>O que é  a Init.</h1>   
-          <h3> Descubra um pouco mais sobre <h3 style={{ color: '#38b6ff' }} >nós.</h3> </h3>
-          <span>
+          <h2 className="Titulo_h2"> Descubra um pouco mais sobre <span className="Titulo_h2_azul" >nós.</span> </h2>
+          <span  className="Textos_secao">
           Criação de sites mobiles e responsivos. Sites que se adaptam a qualquer resolução de tela, sem criar barra de rolagem.
          Em 2016, o acesso à internet via dispositivos móvel (ou mobile) ultrapassou os acessos via desktop.
          Em 2016, o acesso à internet via dispositivos móvel (ou mobile) ultrapassou os acessos via desktop.
@@ -130,15 +139,16 @@ export default function Home(){
           </div>
 
           <div className="Perguntas">
+
           <h1>Perguntas Frequentes</h1>  
-          <h4> Veja as dúvidas frequentes e suas  <h4 style={{ color: '#38b6ff' }} >respostas.</h4> </h4>
+          <h2  className="Titulo_h2"> Veja as dúvidas frequentes e suas  <span  className="Titulo_h2_azul"  >respostas.</span> </h2>
          
              <Perguntas/>
           </div>
 
           <div className="contato">
              <h1>Fale Conosco</h1>
-             <h4>Envie sua mensagem para um de nossos especialistas</h4>
+             <h2 className="Titulo_h2">Envie sua mensagem para um de nossos especialistas</h2>
               <div className="form_contato">
               <input placeholder='Nome' type='text'></input>
              <input placeholder='Email' type='email'></input>

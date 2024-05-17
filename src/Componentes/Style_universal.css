@@ -1,0 +1,28 @@
+.Titulo_h2{
+    font-weight: 'bold';
+    font-size: 30px;
+    font-family: 'Open Sans';
+}
+.Titulo_h2_azul{
+    color:  #38b6ff ;
+    
+    font-size: 30px;
+    font-family: 'Open Sans';
+
+}
+.Textos_secao {
+    font-size: 30px;
+    font-family: 'Open Sans';
+    margin: auto;
+    width: 50%;
+    color: rgb(5, 0, 0)  ;
+}
+
+@media (max-width: 750px)  {
+    .Titulo_h2 , .Titulo_h2_azul{
+      
+        font-size: 20px;
+      
+    }
+
+}

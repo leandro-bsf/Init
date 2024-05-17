@@ -9,12 +9,16 @@
     align-items: center;
   
 }
+.div_buttons_web{
+    display: flex;
+}
 .div_buttons_web button{
-    margin: 40px;
+    text-align: center;
+   
     font-family: 'Quicksand';
     font-size: 25px;
     
-    width: 300px;
+    width: 250px;
 }
 .div_buttons_mobile{
     display: none;
@@ -24,10 +28,7 @@
     width: 50%;
     color: rgb(5, 0, 0)  ;
     height: auto;
-    
-    padding: 2%;
-    font-size: 35px;
-    font-family: 'Open Sans';
+ 
     display: block;
 }
 .Div_capa_2{
@@ -37,7 +38,7 @@
    
 }
 .Div_capa_2 img{
-    width:600px;
+    width:90%;
    height: auto;
     align-items: center;
 
@@ -57,7 +58,9 @@
     margin: auto;
     align-items: center;
     padding: 20px;
-    width: 80%;
+    width: 100%;
+   
+    height: auto;
     justify-content: center;
   
 }
@@ -71,12 +74,13 @@
     margin-top: 60px;
 }
 .item_card{
-    display: flex;
+    
     margin: 100px;
     height: 420px;
-    width:  450px;
+    width:  650px;
      border: 0px;
-    font-size: 20px;
+     
+    font-size: 15px;
     
 
 }
@@ -84,10 +88,11 @@
     font-family: 'Quicksand';
     font-size: 25px;
     width: 300px;
+    margin: 10px;
 }
 .titulo_servicos{
     font-weight: bold;
-     font-size: 30px;
+     font-size: 25px;
     margin-top:  10px;
 }
 .Div_Res_mob{
@@ -103,12 +108,8 @@
 
 }
 .Div_infe span {
-    width: 50%;
-    color: rgb(5, 0, 0)  ;
-    height: auto;
-    margin: auto;
-    font-size: 25px;
-    font-family: 'Open Sans';
+
+   
 }
 .depoimentos{
     align-items: center;
@@ -124,10 +125,9 @@
     width: 80%;
     margin: auto;
     height: auto;
+    padding: 10px;
 }
-.Sobre_nos span {
-    font-size: 20px;
-}
+
 .Perguntas{
     align-items: center;
     text-align: center;
@@ -135,8 +135,8 @@
     width: 100%;
 }
 .contato{
-    text-align: left;
-  
+    text-align: center ;
+   align-items: center;
     background-image:url('./imagens/Contato.png') ;
     background-size: cover;
     width: 100%;
@@ -230,6 +230,7 @@
     }
     .button_servicos{
         font-size: 15px;
+      
     }
     .Div_infe{
         width: 100%;
