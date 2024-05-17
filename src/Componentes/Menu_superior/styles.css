@@ -51,9 +51,9 @@ header nav ul li a{
   transition: 100ms;
 }
 .logo{
-    width: 100px;
-    height: 90px;
-    margin-left: 5%;
+  width: auto;
+  height: 100px;
+  margin-left: 5%;
 
 
 }

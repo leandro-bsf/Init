@@ -2,7 +2,7 @@ import React, {useState, useRef} from 'react';
 import { FiLogOut } from 'react-icons/fi';
 import './styles.css';
 import  logo from './images/Logo Fundo Transparente - Escrita Branca.png'
-
+import { Link } from 'react-router-dom'; 
 export  default function Menu_Superior ({ scrollToServicos, scrollToContato, scrollToSobreNos, scrollToGaleria }){ 
 
 
@@ -24,17 +24,19 @@ const [classOn, setClassOn] = useState(false);
            <nav>
             <ul>
               <li>
-                <a href="/" onClick={scrollToServicos} >SERVIÇOS</a>
+             
+                <Link to="/Sobre_nos" > SERVIÇOS</Link>
               </li>
               <li>
-                <a href="/" onClick={scrollToSobreNos}  >SOBRE</a>
+              
+                <Link to="/Sobre_nos" > SOBRE</Link>
               </li>
               <li>
-                <a href="/"onClick={scrollToGaleria} >GALERIA</a>
+                <Link to="/Sobre_nos" > GALERIA</Link>
               </li>
           
               <li>
-                <a href="/"onClick={scrollToContato} >CONTATO</a>  
+              <Link to="/Sobre_nos" > Contato</Link>
               </li>
              
             </ul>

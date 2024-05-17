@@ -2,9 +2,9 @@
   display: flex; /* Ativa o layout flexbox */
   justify-content: space-between; /* Distribui os elementos entre as extremidades */
   align-items: center; /* Alinha os elementos verticalmente no centro */
-  width: 80%; /* Largura do carrossel (ajuste conforme necessário) */
+  width: 100%; /* Largura do carrossel (ajuste conforme necessário) */
   margin: 0 auto; /* Centraliza o carrossel na tela */
-  padding: 15px;
+  
 }
   
   .carousel-inner {
@@ -15,10 +15,11 @@
   }
   
   .card {
-    width: calc(33.33% - 20px); /* 3 cards por linha com 20px de espaçamento entre eles */
-    margin-bottom: 20px;
+    width: 200px; /* 3 cards por linha com 20px de espaçamento entre eles */
+    margin-bottom: 10px;
     border: 1px solid #ccc;
-    padding: 15px;
+    height: auto;;
+    padding: 5px;
     text-align: center;
   }
   

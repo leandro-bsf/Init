@@ -1,0 +1,62 @@
+.Div_principal{
+    background-image: url('./imagens/fundo_barra.png');
+    background-size: cover;
+    
+    height:450px;
+    
+}
+.Div_sobre{
+    text-align: center;
+    align-items: center;
+    padding: 60px;
+    height: 350px;
+}
+.Div_sobre h1 , h4{
+    color: white;
+    font-family: 'Open Sans';
+
+}
+.div_text{
+    width: 100%;
+
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+    height: 250px;
+    padding: 40px;
+    margin-top: 50px;
+    display: flex;
+    font-family: 'Open Sans';
+}
+.sub_text{
+    width: 50%;
+    font-size: 20px;
+ 
+}
+.Div_cards{
+ 
+    width: 50%;
+ 
+    display: flex;
+
+}
+.Div_1{
+    padding: 30px;
+    background-image: url('./imagens/card.png');
+    width: 200px;
+    height: 150px;
+     margin: 10px;
+     border-radius: 10px;
+    font-size: 15px;
+}
+
+.Div_2{
+    padding: 30px;
+    background-image: url('./imagens/card.png');
+    width: 200px;
+    height: 150px;
+     margin: 10px;
+     margin-top: 100px;
+     border-radius: 10px;
+     font-size: 15px;
+}
