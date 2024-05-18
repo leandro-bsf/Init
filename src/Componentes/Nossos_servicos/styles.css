@@ -1,0 +1,19 @@
+.Div_nossos_servico{
+    text-align: center;
+    align-items: center;
+   
+}
+
+.Text_Prototipagem{
+     display: block;
+     width: 50%;
+}
+.Img_Prototipagem{
+    width: 50%;
+  
+}
+.div_secundaria{
+    align-items: center;
+    text-align: center;
+    display: flex;
+}

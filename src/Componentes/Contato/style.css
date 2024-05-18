@@ -1,0 +1,51 @@
+
+.contato{
+    text-align: center ;
+   align-items: center;
+    display: flex;
+    background-size: cover;
+    width: 100%;
+  padding: 10px;
+
+}
+
+.form_contato{
+    display: grid;
+
+   width: 28%;
+    margin-left: 230px;
+
+    
+  
+}
+.div_texto {
+    text-align: left;
+    font-family: 'Open Sans';
+    width: 30%;
+  
+    
+}
+.div_texto h3{
+    font-size: 22px;
+}
+.button_Contato{
+    background-color: black;
+    width: 50%;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.form_contato  input , button{
+        margin: 10px;
+       color: white;
+        background-color: black;
+        width: 350px;
+        height: 50px;
+        border-radius: 20px;
+        padding: 10px;
+
+}
+.Div_Contato_principal{
+    text-align: center;
+    align-items: center;
+}

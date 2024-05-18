@@ -49,9 +49,7 @@
     align-items: center;
     padding: 15px;
     text-align: center;
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 52%, rgba(241,241,241,1) 100%);
-   
+  
 }
 .Servicos_itens{
     display: flex;
@@ -67,6 +65,7 @@
 .icone_servicos{
     width: 100px;
     height: 100px;
+    color: #38b6ff;
     margin: auto;
     margin-top: 20px;
 }
@@ -79,16 +78,18 @@
     height: 420px;
     width:  650px;
      border: 0px;
-     
+     box-shadow: 10px 10px 5px grey;
     font-size: 15px;
     
 
 }
 .button_servicos{
     font-family: 'Quicksand';
-    font-size: 25px;
+    font-size: 20px;
     width: 300px;
-    margin: 10px;
+  
+    color: white;
+     
 }
 .titulo_servicos{
     font-weight: bold;
@@ -109,7 +110,7 @@
 }
 .Div_infe span {
 
-   
+   font-size: 20px;;
 }
 .depoimentos{
     align-items: center;
@@ -134,37 +135,6 @@
  
     width: 100%;
 }
-.contato{
-    text-align: center ;
-   align-items: center;
-    background-image:url('./imagens/Contato.png') ;
-    background-size: cover;
-    width: 100%;
-
-
-}
-.contato h1 , h4{
-    margin-left: 120px;
-}
-.form_contato{
-    display: grid;
-   
-    margin-left: 180px;
-    padding: 10px;
- 
-    
-  
-}
-.form_contato  input , button{
-        margin: 10px;
-        color: rgb(245, 245, 245);
-        background-color: black;
-        width: 350px;
-        height: 40px;
-        border-radius: 20px;
-        padding: 10px;
-
-}
 .Solici_orcamento{
     background-image: url('./imagens/orcamento.png');
     text-align: center;
@@ -176,6 +146,12 @@
 .mapa{
     width: 100%;
     height: 350px;
+}
+.imagem_banner{
+    width: 50%;
+}
+.Textos_secao{
+    font-size: 15px;
 }
 @media (max-width: 750px)  {
     .Div_capa{
@@ -241,7 +217,7 @@
         font-size: 15px;
     }
     .imagem_banner{
-        width: 90%;
+        width: 80%;
     }
 
 }

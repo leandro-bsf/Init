@@ -15,8 +15,9 @@ import banner3 from './imagens/banner3.png'
 import Depoimentos from "../Depoimentos";
 import Perguntas from "../Perguntas";
 import Roda_pe from "../Roda_pe";
+import foto from  './imagens/responsividade.gif'
 import '../Style_universal.css'
-
+import { TbArrowBigRightLinesFilled } from "react-icons/tb";
 export default function Home(){
    console.log('chegou na home')
     return(
@@ -89,19 +90,20 @@ export default function Home(){
         
            </motion.div >
           
-           <Button variant="info" className="button_servicos">Vamos Conversar <IoIosArrowForward /> </Button>
+           <Button variant="info" className="button_servicos">Veja mais <IoIosArrowForward /> </Button>
           </div> 
 
           <div className="Div_Res_mob">
-          <h2>Criação de Sites <span style={{ color: '#38b6ff' }} >Responsivos </span>    e <span style={{ color: '#38b6ff' }} >Mobiles</span>  </h2>
+          <h2>Responsividade </h2>
             
             <div className="Div_infe" >        
             <span  className="Textos_secao">
-            Criação de sites mobiles e responsivos. Sites que se adaptam a qualquer resolução de tela, sem criar barra de rolagem.
-            Em 2016, o acesso à internet via dispositivos móvel (ou mobile) ultrapassou os acessos via desktop.      
+            Um site responsivo se adapta automaticamente a diferentes tamanhos de tela, como computadores, tablets e smartphones, reorganizando e redimensionando seu conteúdo para garantir legibilidade e fácil navegação em qualquer dispositivo.
+
+Eu crio sites responsivos que se ajustam perfeitamente a qualquer dispositivo, proporcionando uma experiência acessível e atraente para todos os usuários. Se você precisa de um site novo ou quer atualizar o seu atual, estou aqui para ajudar!      
             </span>
 
-            <img src={banner2} className="imagem_banner"></img>
+            <img src={foto} className="imagem_banner"></img>
        
             </div>
             <h1>Nossos Projetos</h1>
@@ -111,7 +113,9 @@ export default function Home(){
             <span  className="Textos_secao">
             Clique no botão abaixo para conhecer os projetos já efetuados pelo nosso time. 
             <br/>
-            <Button variant="info"  className="button_servicos">Portfólio <IoIosArrowForward /> </Button>   
+            {/* <Button variant="info"  className="button_servicos">Portfólio <IoIosArrowForward /> </Button>    */}
+          
+            <Button variant="info"  className="button_servicos">Portfólio   <TbArrowBigRightLinesFilled /> </Button> 
             </span> 
             <img src={banner3} className="imagem_banner"></img>
             </div>
@@ -146,18 +150,6 @@ export default function Home(){
              <Perguntas/>
           </div>
 
-          <div className="contato">
-             <h1>Fale Conosco</h1>
-             <h2 className="Titulo_h2">Envie sua mensagem para um de nossos especialistas</h2>
-              <div className="form_contato">
-              <input placeholder='Nome' type='text'></input>
-             <input placeholder='Email' type='email'></input>
-             <input placeholder='Telefone' type='phone'></input>
-             <input placeholder='Mensagem' type='text'></input>
-             <button> Enviar</button>
-              </div>
-           
-          </div>
           <div className="Solici_orcamento"  >
              <h1>Solicite já seu orçamento!</h1>
              <h4>Solicite seu orçamento agora mesmo que nossos consultores entrarão em contato.</h4>
