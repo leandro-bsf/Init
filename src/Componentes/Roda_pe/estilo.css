@@ -11,7 +11,7 @@
 .Menu{
     width: 40%;
     height: 100%;
-    background-color: aquamarine;
+
 
 }
 .Menu_ul{
@@ -21,10 +21,12 @@
 .Menu_ul a{
     text-decoration: none;
     color: #000;
+    padding: 10px;
+    font-family: 'Poppins';
 }
 
 .logo{
-    width: 70%;
+    width: 25%;
     
 }
 .localizao{
@@ -36,11 +38,76 @@
 
 .container {
     display: flex; /* Torna os elementos filhos flexíveis */
+    width: 100%;
 }
 .box {
     flex: 1; 
-    border-top: 1px solid #000; 
-    padding: 10px; }
+    border-top: 2px solid #635c5c; 
+    padding: 10px;
+    width: 100%; 
+    font-family: 'Poppins';
+    font-size: 15px;
+}
+.box span{
+     text-align: left;
+     
+}
+    
+    .menu-container {
+        width: 200px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin: 20px;
+        background-color: #f9f9f9;
+      }
+      
+      .menu-title {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        color: #333;
+      }
+      
+      .menu-list {
+      
+        padding: 0;
+        margin: 15px;
+      }
+      
+      .menu-item {
+        padding: 5px 0;
+        font-size: 1.2em;
+        color: #555;
+      }
+      
+      .menu-item:hover {
+        color: #000;
+        cursor: pointer;
+      }
+      .Div_social{
+        margin: 10px;
+        padding: 20px;
+      }
+      .social-media-container {
+        margin: 20px; /* Ajuste conforme necessário */
+        text-align: center; /* Centraliza o título e os ícones */
+      }
+      
+      .div-social {
+        display: flex;
+        justify-content: center; /* Centraliza os ícones horizontalmente */
+        gap: 20px; /* Espaçamento entre os ícones */
+        margin-top: 10px; /* Espaçamento entre o título e os ícones */
+      }
+      
+      .social-icon {
+        font-size: 1em; /* Ajuste o tamanho dos ícones conforme necessário */
+        color: #555; /* Cor dos ícones */
+      }
+      
+      .social-icon:hover {
+        color: #000; /* Cor dos ícones ao passar o mouse */
+        cursor: pointer; /* Mostra o cursor de ponteiro ao passar o mouse */
+      }
 
 @media (max-width: 750px)  {
     .container{

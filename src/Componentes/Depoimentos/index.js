@@ -4,6 +4,7 @@ import { IoIosArrowForward } from "react-icons/io";
 import Button from 'react-bootstrap/Button';
 import perfil from './imagen/foto_perfil.png'
 import perfi2 from './imagen/perfil2.jpg'
+import { GrFormPrevious } from "react-icons/gr";
 const dadosCards = [
   {
     id: 1,
@@ -68,7 +69,7 @@ function Depoimentos() {
     <div className="carousel">
 
         
-    <Button  variant="link" onClick={handleAnterior} ><IoIosArrowForward /> </Button>
+    <Button  variant="link" onClick={handleAnterior} ><GrFormPrevious  size={35}/></Button>
       <div className="carousel-inner">
         
         {cardsNaPagina.map((card) => (
@@ -87,7 +88,7 @@ function Depoimentos() {
      
 
       <Button  variant="link" onClick={handleProximo}>
-      <IoIosArrowForward />
+      <IoIosArrowForward  size={30}/>
         </Button>
     </div>
   );

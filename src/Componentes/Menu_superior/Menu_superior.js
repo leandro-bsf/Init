@@ -25,7 +25,7 @@ const [classOn, setClassOn] = useState(false);
             <ul>
                <li>
              
-             <Link to="/Home" > Home</Link>
+             <Link to="/" > Home</Link>
              </li>
          
               <li>

@@ -9,8 +9,11 @@ export default function Contato(){
 
     <div className="Div_Contato_principal">
           <Menu_Superior />
-          <h1>Fale Conosco</h1>
+      <div className="Div_titulo">
+      <h1>Fale Conosco</h1>
       <h2 className="Titulo_h2">Entre em  <span  className="Titulo_h2_azul">contato </span> para saber como conseguimos te ajudar</h2>
+      </div>
+  
       <div className="contato">
    
        <div className="form_contato">

@@ -18,6 +18,7 @@ import Roda_pe from "../Roda_pe";
 import foto from  './imagens/responsividade.gif'
 import '../Style_universal.css'
 import { TbArrowBigRightLinesFilled } from "react-icons/tb";
+import { PiBracketsCurly } from "react-icons/pi";
 export default function Home(){
    console.log('chegou na home')
     return(
@@ -90,34 +91,38 @@ export default function Home(){
         
            </motion.div >
           
-           <Button variant="info" className="button_servicos">Veja mais <IoIosArrowForward /> </Button>
+           <Button variant="info" className="button_servicos">Veja mais <TbArrowBigRightLinesFilled /> </Button>
           </div> 
 
           <div className="Div_Res_mob">
-          <h2>Responsividade </h2>
+        
             
-            <div className="Div_infe" >        
+            <div className="Div_infe" >     
+            <div className="Div_responsividade">
+            <h2 className="Titulo_h2_azul" >Responsividade </h2>  
             <span  className="Textos_secao">
-            Um site responsivo se adapta automaticamente a diferentes tamanhos de tela, como computadores, tablets e smartphones, reorganizando e redimensionando seu conteúdo para garantir legibilidade e fácil navegação em qualquer dispositivo.
-
-Eu crio sites responsivos que se ajustam perfeitamente a qualquer dispositivo, proporcionando uma experiência acessível e atraente para todos os usuários. Se você precisa de um site novo ou quer atualizar o seu atual, estou aqui para ajudar!      
-            </span>
+            Um site responsivo se adapta automaticamente a diferentes tamanhos de tela, como computadores, tablets e smartphones, reorganizando e redimensionando seu conteúdo para garantir legibilidade e fácil navegação em qualquer dispositivo.ajudar!      
+            </span>  
+            <span  className="Textos_secao">
+            Eu crio sites responsivos que se ajustam perfeitamente a qualquer dispositivo, proporcionando uma experiência acessível e atraente para todos os usuários. Se você precisa de um site novo ou quer atualizar o seu atual, estou aqui para ajudar!      
+            </span>  
+            </div> 
+         
 
             <img src={foto} className="imagem_banner"></img>
        
             </div>
-            <h1>Nossos Projetos</h1>
-            <h2 className="Titulo_h2">Conheça nossos<span className="Titulo_h2_azul" > projetos</span>       já finalizados para nossos clientes.</h2>
-
+            <h2 Titulo_h2>Nossos <span className="Titulo_h2_azul" >Projetos</span> </h2>
+  
             <div className="Div_infe" >        
             <span  className="Textos_secao">
-            Clique no botão abaixo para conhecer os projetos já efetuados pelo nosso time. 
+              ver como iremos fazer com a imagem
             <br/>
             {/* <Button variant="info"  className="button_servicos">Portfólio <IoIosArrowForward /> </Button>    */}
           
             <Button variant="info"  className="button_servicos">Portfólio   <TbArrowBigRightLinesFilled /> </Button> 
             </span> 
-            <img src={banner3} className="imagem_banner"></img>
+         
             </div>
 
           </div>
@@ -132,14 +137,34 @@ Eu crio sites responsivos que se ajustam perfeitamente a qualquer dispositivo, p
 
           </div>
           <div className="Sobre_nos">
-            <h1>O que é  a Init.</h1>   
-          <h2 className="Titulo_h2"> Descubra um pouco mais sobre <span className="Titulo_h2_azul" >nós.</span> </h2>
-          <span  className="Textos_secao">
-          Criação de sites mobiles e responsivos. Sites que se adaptam a qualquer resolução de tela, sem criar barra de rolagem.
-         Em 2016, o acesso à internet via dispositivos móvel (ou mobile) ultrapassou os acessos via desktop.
-         Em 2016, o acesso à internet via dispositivos móvel (ou mobile) ultrapassou os acessos via desktop.
-         Em 2016, o acesso à internet via dispositivos móvel (ou mobile) ultrapassou os acessos via desktop.
-          </span>
+            <h2>O que é  a init<span   className="Titulo_h2_azul" >.</span></h2>   
+            <h2 className="Titulo_h2"> Descubra um pouco mais sobre <span className="Titulo_h2_azul" >nós.</span> </h2>
+          
+          <div className="sUb_div_sobre">
+
+               <div className="div_sobre">
+               <span  className="Textos_secao_2">
+               Texto do LeandroTexto do LeandroTexto do LeandroTexto do LeandroTexto do LeandroTexto do LeandroTexto do LeandroTexto do LeandroTexto do LeandroTexto do LeandroTexto do LeandroTexto do LeandroTexto do Leandro.
+                </span>
+                <h3>Founder Init. Solutions</h3>
+                <span  className="Textos_secao_2">
+                Desde o início da graduação, identificamos uma necessidade significativa no mercado. Motivados pela disposição e pelo desejo constante de aprender e evoluir, unimos nossas forças. Com coragem e iniciativa, transformamos essa ideia em uma realidade concreta.
+                </span>
+                <h3>Co-Founder Init. Solutions</h3>
+               </div>
+               <div className="div_sobre_init">
+          
+                  <span className="Textos_secao_2">
+                  A Init Solutions nasceu da idealização de dois jovens graduandos em Engenharia de Software, determinados a revolucionar o desenvolvimento web. 
+
+                  Com uma visão clara e ambiciosa, eles se especializaram na criação de sites responsivos e designs inovadores. 
+
+                  A Init. Solutions se compromete a oferecer soluções de alta qualidade, garantindo que cada projeto seja visualmente atraente, funcional em qualquer dispositivo e alinhado com as necessidades específicas de cada cliente. 
+                  </span>
+               </div>
+
+          </div>
+         
           </div>
 
           <div className="Perguntas">

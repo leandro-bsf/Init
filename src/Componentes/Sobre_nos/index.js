@@ -19,7 +19,7 @@ export default function Sobre_nos(){
              nenhum problema pode ser resolvido pelo mesmo estado de consciência que o criou.
                 nenhum problema pode ser resolvido pelo mesmo estado de consciência que o criou.
              </span>
-             <h1>init. solutions</h1>
+             <h1 >init. solutions</h1>
              </div>
              <div className="Div_cards">
               

@@ -3,8 +3,8 @@
   justify-content: space-between; /* Distribui os elementos entre as extremidades */
   align-items: center; /* Alinha os elementos verticalmente no centro */
   width: 100%; /* Largura do carrossel (ajuste conforme necessário) */
-  margin: 0 auto; /* Centraliza o carrossel na tela */
-  
+  margin:  auto; /* Centraliza o carrossel na tela */
+
 }
   
   .carousel-inner {

@@ -1,16 +1,28 @@
-.card_pergunta{
-    width: calc(33.33% - 20px); /* 3 cards por linha com 20px de espaçamento entre eles */
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    padding: 15px;
-    text-align: center;
+.div_card_perguntas {
+    display: grid;
+    margin: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px; /* Ajuste o espaçamento entre os itens conforme necessário */
+  }
   
-}
-.Div_card{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    padding: 10px;
-    margin: auto;
- 
-}
+  .card_pergunta {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .accordion_header {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ddd;
+    padding: 16px;
+    justify-content: space-between;
+    font-weight: bold;
+    margin: 30px;
+    align-items: center;
+  }
+  
+  .accordion_body {
+    background-color: #fff;
+    padding: 16px;
+  }
