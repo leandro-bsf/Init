@@ -19,6 +19,7 @@ import foto from  './imagens/responsividade.gif'
 import '../Style_universal.css'
 import { TbArrowBigRightLinesFilled } from "react-icons/tb";
 import { PiBracketsCurly } from "react-icons/pi";
+import Nosso_servico from  './imagens/Nossos_Projetos.gif'
 export default function Home(){
    console.log('chegou na home')
     return(
@@ -27,12 +28,12 @@ export default function Home(){
          <div className="Div_capa">
              
                   <div className="Div_capa_1">
-                     <h2  className="Titulo_h2">Uma página web responsiva é  <h2  className="Titulo_h2_azul"   >ESSENCIAL ? </h2></h2>
+                     
                     
-                     <span className="Textos_secao">Garante uma experiência consistente em qualquer dispositivo Isso não apenas satisfaz os usuários, mas também impulsiona o alcance e o sucesso online do seu negócio.</span> 
+                     <span className="Textos_secao">Transformamos suas ideias em realidades tangíveis com inovação, paixão e excelência. Nosso compromisso é construir um futuro brilhante ao seu lado, oferecendo soluções personalizadas que impulsionam o sucesso e superam expectativas.</span> 
                      <div className="div_buttons_web">
-                       <Button variant="info">Vamos Conversar</Button>
-                       <Button variant="info">Vamos Conversar</Button>
+                     <Button variant="info" className="button_servicos">Contato<TbArrowBigRightLinesFilled /> </Button>
+                     <Button variant="info" className="button_servicos">Serviços<TbArrowBigRightLinesFilled /> </Button>
                      </div>
                  
                   </div>
@@ -40,16 +41,16 @@ export default function Home(){
                      <img src={foto_banner}></img>
 
                      <div className="div_buttons_mobile">
-                       <Button variant="info">Vamos Conversar</Button>
-                       <Button variant="info">Vamos Conversar</Button>
+                     <Button variant="info" className="button_servicos">Contato<TbArrowBigRightLinesFilled /> </Button>
+                     <Button variant="info" className="button_servicos">Serviços <TbArrowBigRightLinesFilled /> </Button>
                      </div>
                   </div>
              
          </div>
          <  div className="Servicos" >
 
-          <h1>O que fazemos?</h1>
-          <h2 className="Titulo_h2">Veja quais <span className="Titulo_h2_azul" >serviços</span>  oferecemos e como posso ajudar você.</h2>
+          <h2 className="Titulo_h2">O que fazemos?</h2>
+          <h2 className="sub_Titulo_h2">Veja quais <span className="Titulo_h2_azul" >serviços</span>  oferecemos e como podemos ajudar você.</h2>
 
            <motion.div className="Servicos_itens" 
               initial={{opacity: 0 , x: -50}}
@@ -94,51 +95,53 @@ export default function Home(){
            <Button variant="info" className="button_servicos">Veja mais <TbArrowBigRightLinesFilled /> </Button>
           </div> 
 
-          <div className="Div_Res_mob">
         
             
-            <div className="Div_infe" >     
+           
             <div className="Div_responsividade">
-            <h2 className="Titulo_h2_azul" >Responsividade </h2>  
-            <span  className="Textos_secao">
-            Um site responsivo se adapta automaticamente a diferentes tamanhos de tela, como computadores, tablets e smartphones, reorganizando e redimensionando seu conteúdo para garantir legibilidade e fácil navegação em qualquer dispositivo.ajudar!      
-            </span>  
-            <span  className="Textos_secao">
-            Eu crio sites responsivos que se ajustam perfeitamente a qualquer dispositivo, proporcionando uma experiência acessível e atraente para todos os usuários. Se você precisa de um site novo ou quer atualizar o seu atual, estou aqui para ajudar!      
-            </span>  
-            </div> 
-         
-
-            <img src={foto} className="imagem_banner"></img>
-       
-            </div>
-            <h2 Titulo_h2>Nossos <span className="Titulo_h2_azul" >Projetos</span> </h2>
-  
-            <div className="Div_infe" >        
-            <span  className="Textos_secao">
-              ver como iremos fazer com a imagem
-            <br/>
-            {/* <Button variant="info"  className="button_servicos">Portfólio <IoIosArrowForward /> </Button>    */}
+                  <div className="Div_text_resp"> 
+                     <div className="divisao"></div>
+                   <h2 className="Titulo_h2" style={{color: '#38b6ff'}} >Responsividade </h2>  
+                        <span  className="Textos_secao">
+                         Um site responsivo se adapta automaticamente a diferentes tamanhos de tela, como computadores, tablets e smartphones, reorganizando e redimensionando seu conteúdo para garantir legibilidade e fácil navegação em qualquer dispositivo.      
+                   </span>  
+                     <div className="divisao_1"></div>
+                  </div>
+                  <div className="respos_img">
+                   <img src={foto} className="imagem_banner"></img> 
+                  </div>
+            
           
+            </div> 
+       
+            
+           
+  
+            <div className="Projetos" >      
+
+             <h2 className="Titulo_h2">Nossos <span className="Titulo_h2"   style={{color: '#38b6ff'}}  >Projetos</span> </h2>
+            
+               <img src={Nosso_servico} className="img_projeto"/>
+
             <Button variant="info"  className="button_servicos">Portfólio   <TbArrowBigRightLinesFilled /> </Button> 
-            </span> 
-         
+        
+      
             </div>
 
-          </div>
+         
           <div className="depoimentos">
 
             
-          <h1>Depoimentos </h1>
+          <h2 className="Titulo_h2" >Depoimentos </h2>
          
-          <h2 className="Titulo_h2" > O que nossos <span  className="Titulo_h2_azul"  >clientes</span>    dizem sobre nós</h2>
+          <h2 className="sub_Titulo_h2" > O que nossos <span  className="sub_Titulo_h2" style={{color: '#38b6ff'}}  >clientes</span>    dizem sobre nós</h2>
 
-         <Depoimentos/>
+          <Depoimentos/>
 
           </div>
           <div className="Sobre_nos">
-            <h2>O que é  a init<span   className="Titulo_h2_azul" >.</span></h2>   
-            <h2 className="Titulo_h2"> Descubra um pouco mais sobre <span className="Titulo_h2_azul" >nós.</span> </h2>
+            <h2 className="Titulo_h2" >O que é  a init<span   className="Titulo_h2_azul" >.</span></h2>   
+            <h2 className="sub_Titulo_h2"> Descubra um pouco mais sobre <span className="sub_Titulo_h2"  style={{color: '#38b6ff'}} >nós.</span> </h2>
           
           <div className="sUb_div_sobre">
 
@@ -169,8 +172,8 @@ export default function Home(){
 
           <div className="Perguntas">
 
-          <h1>Perguntas Frequentes</h1>  
-          <h2  className="Titulo_h2"> Veja as dúvidas frequentes e suas  <span  className="Titulo_h2_azul"  >respostas.</span> </h2>
+          <h2  className="Titulo_h2">Perguntas Frequentes</h2>  
+          <h2  className="sub_Titulo_h2"> Veja as dúvidas frequentes e suas  <span  className="sub_Titulo_h2" style={{color: '#38b6ff'}} >respostas.</span> </h2>
          
              <Perguntas/>
           </div>

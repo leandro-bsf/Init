@@ -14,7 +14,7 @@ export default function Nossos_servico (){
 
                 <div className="div_secundaria">
                     <div className="Img_Prototipagem">
-                       <img src={Protopipacao}/>
+                       <img src={Protopipacao} className="imagem_servico"/>
 
                     </div>
                    
@@ -37,43 +37,38 @@ export default function Nossos_servico (){
  
 
                 
-                <div className="div_secundaria">
-
-            <div className="Img_Prototipagem">
-                 <img src={Protopipacao}/>
-
-             </div>
-   
-            <div className="Text_Prototipagem">
+           <div className="div_secundaria">
+              <div className="Text_Prototipagem">
                 <h2>Desenvolvimento</h2>
                 <span>
                 Arquitetamos seu produto e desenvolvemos o conceito e comunicação visual. Por fim, é feito o design de todas as telas!
                 </span> <br/>
-
-     <Button variant="info"  className="button_servicos">Portfólio <IoIosArrowForward /> </Button>   
-
-
-   </div>
-</div>
-
-<div className="div_secundaria">
-
-<div className="Text_Prototipagem">
-       <img src={Protopipacao}/>
-
-    </div>
+                <Button variant="info"  className="button_servicos">Portfólio <IoIosArrowForward /> </Button>   
+              </div>
+               <div className="Img_Prototipagem">
+                 <img src={Protopipacao}  className="imagem_servico" />
+               
+               </div>
    
-<div className="Text_Prototipagem">
-   <h2>Processo de criação</h2>
-     <span>
-     Conheça um pouco do nosso processo de criação.
-     </span> <br/>
 
-     <Button variant="info"  className="button_servicos">Portfólio <IoIosArrowForward /> </Button>   
+            </div>
 
-
-   </div>
-</div>
+    <div className="div_secundaria">
+    <div className="Text_Prototipagem">
+          <h2>Processo de criação</h2>
+        <span>
+          Conheça um pouco do nosso processo de criação.
+        </span> <br/>
+        
+      
+       </div>
+    <div className="Img_Prototipagem">
+       <img src={Protopipacao}  className="imagem_servico" />
+            <Button variant="info"  className="button_servicos">Portfólio <IoIosArrowForward /> </Button>   
+     </div> 
+   
+    
+      </div>
 
             </div>
     )

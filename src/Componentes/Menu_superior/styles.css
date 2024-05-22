@@ -39,12 +39,13 @@ header nav ul li a {
 
   font-family: 'Tenor Sans' ;
   font-size:  15px;
-  padding: 2.0rem;
+  padding: 1.6rem;
   transition: all 250ms linear 0s;
 }
 
 header nav ul li a:hover {
-  font-size: 1.4rem;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 15px;
  
 }
 header nav ul li a{
@@ -54,7 +55,7 @@ header nav ul li a{
   transition: 100ms;
 }
 .logo{
-  width: 100px ;
+  width: 150px ;
   height: 60px;
 
  
@@ -83,7 +84,7 @@ header nav ul li a{
    margin: 0;
    padding: 10px;
  }
- 
+
 
  .form-group{
    display: block;
@@ -180,5 +181,8 @@ header nav ul li a{
   #form h3{
     font-size: 2rem;
   }
+  .logo{
+    width: 120px;
+   }
 
 }

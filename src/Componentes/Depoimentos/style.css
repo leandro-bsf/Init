@@ -35,3 +35,25 @@
     margin-bottom: 5px; /* Espaçamento abaixo do título */
     color: #333; /* Cor do texto */
   }
+  @media (max-width: 750px)  {
+    .carousel-inner {
+      display: block;
+      width: 100%;
+      margin-top: 30px;
+    }
+.carousel{
+ 
+  align-items: center;
+  margin: auto;
+}
+.card{
+  width:  80%;
+  margin: auto;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.botao_p{
+  display: none;
+}
+
+  }

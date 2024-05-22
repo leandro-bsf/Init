@@ -12,8 +12,8 @@ const [classOn, setClassOn] = useState(false);
   return (
     <header>
     <div className="container">
-       <img src={logo} className='logo'></img> 
-
+    
+       <Link to="/" >    <img src={logo} className=''/> </Link>
       <div className = { classOn ? 'menu-section on' : 'menu-section'} onClick={() => setClassOn(!classOn)}>
            <div className="menu-toggle">
               <div className="one"></div>

@@ -17,3 +17,22 @@
     text-align: center;
     display: flex;
 }
+@media (max-width: 750px)  {
+    .Text_Prototipagem{
+        display: block;
+        width: 100%;
+    }
+    .Img_Prototipagem{
+        width: 80%;
+        align-items: center;
+        margin: auto;
+    }
+    .div_secundaria{
+        display: block;
+        width: 100%;
+    }
+    .imagem_servico{
+        width: 100%;
+    }
+
+}

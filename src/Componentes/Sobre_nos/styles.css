@@ -11,10 +11,17 @@
     padding: 60px;
     height: 350px;
 }
-.Div_sobre h1 , h4{
+.Titulo{
     color: white;
     font-family: 'Open Sans';
     font-size: 35px;
+    
+
+}
+.Div_sobre h3{
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 20px;
     
 
 }
@@ -33,12 +40,12 @@
 .sub_text{
     width: 50%;
     font-size: 20px;
+
  
 }
 .Div_cards{
  
     width: 50%;
- 
     display: flex;
 
 }
@@ -61,4 +68,31 @@
      margin-top: 100px;
      border-radius: 10px;
      font-size: 15px;
+}
+
+@media (max-width: 750px)  {
+   .div_text{
+    display: block;
+    width: 100%;
+    margin-top: 0px;
+   }
+    .Div_cards{
+        display: block;
+        width: 100%;
+        margin: auto;
+        padding: 30px;
+    }
+    .sub_text{
+        width: 100%;
+    }.Titulo{
+
+     font-size: 25px;
+
+    }
+    .Div_sobre h3{
+        font-size: 20px;
+    }
+    .Div_2{
+         margin-top: 10px;
+    }
 }

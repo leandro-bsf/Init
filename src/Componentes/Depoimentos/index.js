@@ -69,7 +69,7 @@ function Depoimentos() {
     <div className="carousel">
 
         
-    <Button  variant="link" onClick={handleAnterior} ><GrFormPrevious  size={35}/></Button>
+    <Button   className='botao_p' variant="link" onClick={handleAnterior} ><GrFormPrevious  size={35}/></Button>
       <div className="carousel-inner">
         
         {cardsNaPagina.map((card) => (
@@ -87,7 +87,7 @@ function Depoimentos() {
 
      
 
-      <Button  variant="link" onClick={handleProximo}>
+      <Button  className='botao_p' variant="link" onClick={handleProximo}>
       <IoIosArrowForward  size={30}/>
         </Button>
     </div>

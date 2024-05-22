@@ -1,28 +1,47 @@
 .div_card_perguntas {
     display: grid;
-    margin: 20px;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 16px; /* Ajuste o espaçamento entre os itens conforme necessário */
+    margin: 1px;
+    padding: 0px;
+  
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; /* Ajuste o espaçamentoentre os itens conforme necessário */
   }
   
   .card_pergunta {
-    border: 1px solid #ddd;
+  margin: 0px;
     border-radius: 4px;
     overflow: hidden;
     cursor: pointer;
   }
   
   .accordion_header {
-    background-color: #f7f7f7;
+   background-color: black;
     border-bottom: 1px solid #ddd;
-    padding: 16px;
-    justify-content: space-between;
+    padding: 5px;
+  color: white;
     font-weight: bold;
-    margin: 30px;
+    width: 450px;
+    margin: auto;
     align-items: center;
   }
   
-  .accordion_body {
-    background-color: #fff;
-    padding: 16px;
+  .accordion_body { 
+    padding: 5px;
+    width: 450px;
+    border-bottom: 1px solid #716b6b;
+    margin: auto;
+    align-items: center;
+  }
+  @media (max-width: 750px)  {
+    .div_card_perguntas{
+      display: block;
+      margin-top: 15px;
+    }
+    .accordion_header{
+      width: 70%;
+      padding: 10px;
+      margin:  auto;
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
   }

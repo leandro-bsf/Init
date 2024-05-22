@@ -2,7 +2,7 @@
 import React from "react"
 import  './styles.css'
 import Menu_Superior from "../Menu_superior/Menu_superior"
-
+import '../Style_universal.css'
 export default function Sobre_nos(){
     return(
         <div className="Div_principal">
@@ -10,8 +10,8 @@ export default function Sobre_nos(){
         <div className="Div_sobre">
              
 
-                <h1>Sobre nós</h1>
-                <h4>Somos uma empresa com foco em criação de sites</h4>
+                <h2 className="Titulo">Sobre nós</h2>
+                <h3>Somos uma empresa com foco em criação de sites</h3>
         </div>
          <div className="div_text">
             <div className="sub_text" >

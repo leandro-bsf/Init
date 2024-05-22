@@ -5,41 +5,36 @@
     background-position: left;
     text-align: center;
     display: flex;
-    margin: 20px;
+    padding: 20px;
+ 
     align-items: center;
   
 }
 .div_buttons_web{
     display: flex;
 }
-.div_buttons_web button{
-    text-align: center;
-    border-radius: 20px;
-   
-    font-family: 'Quicksand';
-    font-size: 25px;
-    
-    width: 250px;
-}
 .div_buttons_mobile{
     display: none;
  
 }
 .Div_capa_1{
-    width: 50%;
+    width: 45%;
     color: rgb(5, 0, 0)  ;
     height: auto;
  
+    margin-left: 50px;
     display: block;
+    text-align: center;
 }
 .Div_capa_2{
     width: 50%;
     padding: 5%;
+    align-items: center;
     height: auto;
    
 }
 .Div_capa_2 img{
-    width:90%;
+    width:80%;
    height: auto;
     align-items: center;
 
@@ -48,17 +43,15 @@
 .Servicos{
     width: 100%;
     align-items: center;
-    padding: 15px;
     text-align: center;
+    margin: auto;
   
 }
 .Servicos_itens{
     display: flex;
-    margin: auto;
     align-items: center;
-    padding: 20px;
+    padding: 0px;
     width: 100%;
-   
     height: auto;
     justify-content: center;
   
@@ -75,12 +68,13 @@
 }
 .item_card{
     
-    margin: 100px;
+    margin: 70px;
     height: 420px;
     width:  650px;
      border: 0px;
      box-shadow: 10px 10px 5px grey;
     font-size: 15px;
+    
     
 
 }
@@ -88,7 +82,7 @@
     font-family: 'Quicksand';
     font-size: 20px;
     width: 300px;
-  
+    margin-top: 50px;
     color: white;
      
 }
@@ -105,15 +99,14 @@
     align-items: center;
     text-align: center;
 }
-.Div_infe{
-    display: flex;
-  
 
-}
-.Div_infe span {
 
-   font-size: 20px;;
+.Projetos{
+    align-items: center;
+    text-align: center;
+    
 }
+
 .depoimentos{
     align-items: center;
     text-align: center;
@@ -121,7 +114,19 @@
     height: auto;
    
 }
-
+.divisao{
+    width: 30%;
+    background-color: #38b6ff;
+    height: 3px;
+    margin-bottom: 30px;
+}
+.divisao_1{
+    width: 30%;
+    background-color: #38b6ff;
+    height: 3px;
+    margin-top: 30px; 
+    margin-left: 70%;
+}
 .Sobre_nos{
   
     text-align: center;
@@ -150,30 +155,38 @@
     width: 100%;
     height: 350px;
 }
-.imagem_banner{
-    width: 60%;
-    height: 500px;
-  padding-top: 90px;
+
+.img_projeto{
+    width: 80%;
 }
 .Div_responsividade{
     font-size: 15px;
     text-align: left;
-    margin: 90px;
+    display: flex;
     width: 100%;
+ 
+}
+.Div_text_resp{
+    width: 50%;
+    margin: 60px;
+    
+}
+.imagem_banner{
+    width: 100%;
+    height: 90%;
+ 
+
 }
 .sUb_div_sobre {
     display: flex;
     width: 100%;
 
 }
-.div_sobre{
-   
-    background-color: aqua;
+ 
+.div_sobre_init , .div_sobre{
+    height: 650px;
     width: 50%;
-}
-.div_sobre_init{
-    background-color: blanchedalmond;
-    width: 50%;
+    align-items: right;
 }
 @media (max-width: 750px)  {
     .Div_capa{
@@ -184,9 +197,11 @@
        height: 100%;
     }
     .Div_capa_1 ,.Div_capa_2  {
-            font-size: 15px;
+            font-size: 13px;
             width: 100%;
             padding: 10px;
+            margin: auto;
+            text-align: center;
             align-items: center;
             height: auto;
     }
@@ -217,29 +232,53 @@
     }
     .Servicos_itens{
         display: block;
+        align-items: center;
+        padding-top: 20px;
+        width: 100%;
+      
     }
     .item_card{
         width: 100%;
-        margin: 10px;
+        margin: auto;
         font-size: 15px;
+        align-items: center;
     }
+   
     .titulo_servicos{
         font-size: 15px;
     }
     .button_servicos{
-        font-size: 15px;
-      
+        font-size: 15px;   
     }
-    .Div_infe{
+    .Div_text_resp{
         width: 100%;
+        margin: 10px;
+    }
+    .sUb_div_sobre{
         display: block;
-       
     }
-    .Div_Res_mob span , h2{
-        font-size: 15px;
-    }
+    
     .imagem_banner{
-        width: 80%;
+        width: 70%;
+        height: 350px;
     }
+    .Div_responsividade{
+        margin: 0px;
+        width: 100%;
+        padding: 0;
+        display: block;
+        font-size: 25px;
+     
+        text-align: center;
+        align-items: center;
+    }
+    .div_sobre , .div_sobre_init{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+    }
+   
 
 }
