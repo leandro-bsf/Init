@@ -1,7 +1,6 @@
 import React from "react"
 import Menu_Superior from "../Menu_superior/Menu_superior"
 import './styles.css';
-import Accordion from 'react-bootstrap/Accordion';
 import foto_banner  from  './imagens/image_banner.png'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
@@ -10,15 +9,12 @@ import { FaCode } from "react-icons/fa6";
 import { motion } from "framer-motion"
 import { IoIosArrowForward } from "react-icons/io";
 import TypeIt from "typeit-react";
-import banner2 from './imagens/banner2.png'
-import banner3 from './imagens/banner3.png'
 import Depoimentos from "../Depoimentos";
 import Perguntas from "../Perguntas";
 import Roda_pe from "../Roda_pe";
 import foto from  './imagens/responsividade.gif'
 import '../Style_universal.css'
 import { TbArrowBigRightLinesFilled } from "react-icons/tb";
-import { PiBracketsCurly } from "react-icons/pi";
 import Nosso_servico from  './imagens/Nossos_Projetos.gif'
 export default function Home(){
    console.log('chegou na home')

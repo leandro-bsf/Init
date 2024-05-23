@@ -18,15 +18,11 @@
     list-style: none;
    
 }
-.Menu_ul a{
-    text-decoration: none;
-    color: #000;
-    padding: 10px;
-    font-family: 'Poppins';
-}
+
 
 .logo{
-    width: 25%;
+    width: 70%;
+    height: auto;
     
 }
 .localizao{
@@ -34,7 +30,13 @@
     height: 100%;
     padding: 10px;
 }
-
+.style_link{
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  padding: 10px;
+  font-family: 'Poppins';
+}
 
 .container {
     display: flex; /* Torna os elementos filhos flexíveis */
@@ -124,5 +126,9 @@
     }
     .box span{
         font-size: 15px;
+    }
+    .logo{
+      width: 70%;
+      height: auto;
     }
 }

@@ -4,7 +4,7 @@ import { IoIosArrowDown } from "react-icons/io";
 const perguntas = [
   {
     id: 1,
-    pergunta: 'Pergunta 1',
+    pergunta: 'Por que minha empresa preisa',
     resposta: 'Aqui já a resposta'
   },
   {
@@ -47,7 +47,7 @@ const Perguntas = () => {
         <div className="card_pergunta" key={pergunta.id}>
           <div className="accordion_header" onClick={() => toggleAccordion(index)}>
             {pergunta.pergunta}
-            <IoIosArrowDown  size={25}/>
+            <IoIosArrowDown  className='icone'/>
           </div>
           {activeIndex === index && <div className="accordion_body">{pergunta.resposta}</div>}
         </div>

@@ -1,19 +1,21 @@
 
 import React from "react"
 import  './estilo.css'
-import logo from  '../Menu_superior/images/Logo Fundo Transparente - Escrita Branca.png'
+import logo from  './init..svg'
 import { FaPhoneAlt } from "react-icons/fa";
 import { RiMapPinFill } from "react-icons/ri";
 import { FaFacebook } from "react-icons/fa";
 import { LuInstagram } from "react-icons/lu";
 import { FaTiktok } from "react-icons/fa";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 export default function Roda_pe(){
     return(
         <div className="roda_pe">
 
 <div class="container">
         <div class="box"> 
-        <img src={logo} className="logo" alt="logo"/></div>
+        <img src={logo} className="logo" alt="logo"/>
+        </div>
         <div class="box">
         <h3>Sobre</h3>
                     <span>
@@ -24,14 +26,14 @@ export default function Roda_pe(){
         </div>
         <div class="box"> 
             <h3>Menu</h3>
-            <ul className="menu-list">
-        <li className="menu-item">Serviços</li>
-        <li className="menu-item">Sobre</li>
-        <li className="menu-item">Portfólio</li>
-        <li className="menu-item">Contato</li>
+            <ul className="menu-list"> 
+        <li><Link to="/Nossos_servico" className='style_link'> Serviços</Link></li>  
+        <li><Link to="/Sobre_nos" className='style_link'> Sobre</Link> </li>
+        <li><Link to="/Nossos_servico" className='style_link' >Portfólio</Link></li>
+        <li> <Link to="/Contato" className='style_link'  > Contato</Link> </li>
       </ul>
                 
-              
+    
         </div>
         <div class="box">
              <ul>

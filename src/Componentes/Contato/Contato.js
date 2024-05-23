@@ -3,6 +3,7 @@ import  './style.css'
 import Menu_Superior from "../Menu_superior/Menu_superior"
 import '../Style_universal.css'
 import Button from 'react-bootstrap/Button';
+import '../Style_universal.css'
 import { IoIosArrowForward } from "react-icons/io";
 export default function Contato(){
     return(
@@ -10,8 +11,8 @@ export default function Contato(){
     <div className="Div_Contato_principal">
           <Menu_Superior />
       <div className="Div_titulo">
-      <h1>Fale Conosco</h1>
-      <h2 className="Titulo_h2">Entre em  <span  className="Titulo_h2_azul">contato </span> para saber como conseguimos te ajudar</h2>
+      <h2 className="Titulo_h2">Fale Conosco</h2>
+      <h2 className="sub_Titulo_h2">Entre em <span className="Titulo_h2_azul" >contato </span> para saber como conseguimos te ajudar</h2>
       </div>
   
       <div className="contato">

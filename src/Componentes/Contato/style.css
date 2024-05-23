@@ -35,6 +35,7 @@
 .button_Contato{
     background-color: black;
     width: 50%;
+ 
     border-radius: 15px;
     margin: auto;
 }
@@ -52,4 +53,16 @@
 .Div_Contato_principal{
     text-align: center;
     align-items: center;
+}
+@media (max-width: 750px)  {
+    .div_texto{
+        display: none;
+    }
+    .form_contato{
+        margin: auto;
+        width: 100%;
+        margin-top: 30px;
+
+    }
+
 }

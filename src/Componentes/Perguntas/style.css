@@ -3,8 +3,14 @@
     margin: 1px;
     padding: 0px;
   
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 10px; /* Ajuste o espaçamentoentre os itens conforme necessário */
+  }
+  .icone{
+   
+    size: 30px;
+    margin-left: 30px;
+    background-color: #716b6b;
   }
   
   .card_pergunta {
@@ -16,7 +22,8 @@
   
   .accordion_header {
    background-color: black;
-    border-bottom: 1px solid #ddd;
+    border: 1px solid #090909;
+    border-radius: 15px;
     padding: 5px;
   color: white;
     font-weight: bold;
@@ -28,10 +35,15 @@
   .accordion_body { 
     padding: 5px;
     width: 450px;
-    border-bottom: 1px solid #716b6b;
+    background-color: #090909;
+    color: white;
+    border: 1px solid #716b6b;
     margin: auto;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     align-items: center;
-  }
+   
+   }
   @media (max-width: 750px)  {
     .div_card_perguntas{
       display: block;
