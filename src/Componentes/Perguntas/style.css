@@ -1,59 +1,70 @@
-.div_card_perguntas {
-    display: grid;
-    margin: 1px;
-    padding: 0px;
+.arrow {
+  float: right;
+
+
+}
+
+.open {
+  transform: rotate(90deg);
+
+}
+.accordion{
+  width:50%;
+  margin: auto;
+  height: auto;
+
+  padding: 10px;
+}
+.accordion-item {
+ height: auto;
+ transition: height 0.3s ease;
+  margin: 20px;
+ 
+}
+.accordion-header{
+  cursor: pointer;
+  font-weight: bold;
+}
+.titulo{
+  height: auto;
+  margin: 20px;
+
+  background-color: rgb(255, 255, 255);
+  height: 100px;
+  border: 1px solid rgb(214, 214, 214);
   
-    grid-template-columns: repeat(1, 1fr);
-    gap: 10px; /* Ajuste o espaçamentoentre os itens conforme necessário */
+
+}
+.IoIosArrowForward{
+  size: 22;
+}
+.seta_fixa{
+   left: 71%;
+  margin: 1px;
+   position: absolute;
+   transform: rotate(90deg);
+}
+@media (max-width: 750px)  {
+
+  .accordion{
+   width: 90%;
   }
-  .icone{
-   
-    size: 30px;
-    margin-left: 30px;
-    background-color: #716b6b;
+  .seta_fixa{
+    size: 22;
   }
-  
-  .card_pergunta {
-  margin: 0px;
-    border-radius: 4px;
-    overflow: hidden;
-    cursor: pointer;
+  .titulo{
+    height: 50px;
   }
-  
-  .accordion_header {
-   background-color: black;
-    border: 1px solid #090909;
-    border-radius: 15px;
-    padding: 5px;
-  color: white;
-    font-weight: bold;
-    width: 450px;
-    margin: auto;
-    align-items: center;
+  .accordion-item {
+     height: 30px;
   }
-  
-  .accordion_body { 
-    padding: 5px;
-    width: 450px;
-    background-color: #090909;
-    color: white;
-    border: 1px solid #716b6b;
-    margin: auto;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    align-items: center;
-   
-   }
-  @media (max-width: 750px)  {
-    .div_card_perguntas{
-      display: block;
-      margin-top: 15px;
-    }
-    .accordion_header{
-      width: 70%;
-      padding: 10px;
-      margin:  auto;
-      margin-bottom: 10px;
-      font-size: 20px;
-    }
+  .accordion-item {
+    height: auto;
   }
+  .IoIosArrowForward{
+ size:  25;
+  }
+  .accordion-item {
+    margin: 10px;
+  }
+}

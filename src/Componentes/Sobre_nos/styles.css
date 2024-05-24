@@ -1,7 +1,8 @@
 .Div_principal{
-    background-image: url('./imagens/fundo_barra.png');
-    background-size: cover;
-    
+    background-image: url('./imagens/fundo.svg');
+    background-size:  cover;
+    width: 100%;
+
     height:450px;
     
 }
@@ -47,13 +48,14 @@
  
     width: 50%;
     display: flex;
+    margin-top: 100px;
 
 }
 .Div_1{
     padding: 30px;
     background-image: url('./imagens/card.png');
-    width: 200px;
-    height: 150px;
+    width: 240px;
+    height: 180px;
      margin: 10px;
      border-radius: 10px;
     font-size: 15px;

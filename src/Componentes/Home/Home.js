@@ -167,16 +167,12 @@ export default function Home(){
           </div>
 
           <div className="Perguntas">
-
-          <h2  className="Titulo_h2">Perguntas Frequentes</h2>  
-          <h2  className="sub_Titulo_h2"> Veja as dúvidas frequentes e suas  <span  className="sub_Titulo_h2" style={{color: '#38b6ff'}} >respostas.</span> </h2>
-         
              <Perguntas/>
           </div>
 
           <div className="Solici_orcamento"  >
              <h1>Solicite já seu orçamento!</h1>
-             <h4>Solicite seu orçamento agora mesmo que nossos consultores entrarão em contato.</h4>
+             <h3>Solicite seu orçamento agora mesmo que nossos consultores entrarão em contato.</h3>
              <Button variant="info"  className="button_servicos">Orçamento <IoIosArrowForward /> </Button>  
           </div>
           

@@ -140,7 +140,7 @@
 .Perguntas{
     align-items: center;
     text-align: center;
- 
+    background-color: rgb(251, 251, 251);
     width: 100%;
 }
 .Solici_orcamento{
@@ -180,6 +180,7 @@
 .sUb_div_sobre {
     display: flex;
     width: 100%;
+    background-color: blueviolet;
 
 }
  
@@ -264,7 +265,7 @@
     }
     .Div_responsividade{
         margin: auto;
-        width: 100%;
+        width: 90%;
         padding: 0;
         display: block;
         font-size: 25px;
@@ -287,6 +288,15 @@
     }
     .respos_img{
         width: 100%;
+    }
+    .Solici_orcamento{
+        padding: 5x;
+        padding-top: 20px;
+        height: 300px;
+         
+    }
+    .button_servicos{
+        width: 90%;
     }
    
 
