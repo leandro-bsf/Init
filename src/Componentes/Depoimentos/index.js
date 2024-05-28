@@ -26,15 +26,7 @@ const dadosCards = [
     titulo: 'Nome do João',
     avaliacao: '⭐⭐⭐⭐⭐', 
     descricao: 'Com o design pronto, nosso time de programadores irá dar vida ao projeto. Usando tecnologias de ponta, sua ideia vira realidade.',
-  },
-  {
-    id: 4,
-    imagem: perfi2,
-    titulo: 'Nome do João',
-    avaliacao: '⭐⭐⭐⭐⭐', 
-    descricao: 'Com o design pronto, nosso time de programadores irá dar vida ao projeto. Usando tecnologias de ponta, sua ideia vira realidade.',
-  },
-  // Adicione mais cards aqui
+  }
 ];
 
 const NUMERO_CARDS_POR_PAGINA = 3;

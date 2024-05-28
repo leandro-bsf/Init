@@ -2,15 +2,29 @@
     background-image: url('./imagens/fundo.svg');
     background-size:  cover;
     width: 100%;
-
+    align-items: center;
     height:450px;
     
+}
+.sub_text{
+    width: 100%;
+    font-size: 20px;
+    background-color: aqua;
+    text-align: center;
+    padding: 30px;
+    height: 150px;
+
+ 
 }
 .Div_sobre{
     text-align: center;
     align-items: center;
     padding: 60px;
     height: 350px;
+}
+
+.init{
+    margin-left: 5px;
 }
 .Titulo{
     color: white;
@@ -38,38 +52,19 @@
     display: flex;
     font-family: 'Open Sans';
 }
-.sub_text{
-    width: 50%;
-    font-size: 20px;
 
- 
-}
 .Div_cards{
- 
-    width: 50%;
-    display: flex;
-    margin-top: 100px;
 
-}
-.Div_1{
-    padding: 30px;
-    background-image: url('./imagens/card.png');
-    width: 240px;
-    height: 180px;
-     margin: 10px;
-     border-radius: 10px;
-    font-size: 15px;
-}
+  border-top: 1px solid black;
+   width: 90%;
+   padding: 10px;
+   align-items: center;
+   margin: 50px;
+   font-family: 'Open Sans';
+   font-size: 25px;
+   height: 250px;
+  
 
-.Div_2{
-    padding: 30px;
-    background-image: url('./imagens/card.png');
-    width: 200px;
-    height: 150px;
-     margin: 10px;
-     margin-top: 100px;
-     border-radius: 10px;
-     font-size: 15px;
 }
 
 @media (max-width: 750px)  {
@@ -86,6 +81,8 @@
     }
     .sub_text{
         width: 100%;
+        margin: auto;
+        text-align: center;
     }.Titulo{
 
      font-size: 25px;
@@ -94,7 +91,5 @@
     .Div_sobre h3{
         font-size: 20px;
     }
-    .Div_2{
-         margin-top: 10px;
-    }
+    
 }

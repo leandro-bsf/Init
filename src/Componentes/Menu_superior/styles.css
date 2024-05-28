@@ -31,42 +31,30 @@ header nav ul {
 header nav ul li {
   list-style: none;
   margin-top: 20px;
+
 }
 
 header nav ul li a {
   text-decoration: none;
   color: rgb(246, 246, 246);
-
   font-family: 'Tenor Sans' ;
-  font-size:  15px;
-  padding: 1.6rem;
-  transition: all 250ms linear 0s;
+  font-size:  18px;
+  width: 80px;
+  margin-left: 40px;
+
 }
 
 header nav ul li a:hover {
   border: 2px solid rgb(255, 255, 255);
   border-radius: 15px;
+  padding: 5px;
  
 }
-header nav ul li a{
-  position: relative;
-  animation-name: menu;
-  animation-duration: 1s;
-  transition: 100ms;
-}
+
 .logo{
   width: 150px ;
   height: 60px;
 
- 
-
-
-}
-
-@keyframes menu {
-  0%   { left:0px; top: -100px;}
-  100% { left: 0px; top:0px;}
-  
 }
 
 @media (max-width: 750px){

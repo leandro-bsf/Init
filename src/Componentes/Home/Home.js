@@ -19,7 +19,7 @@ import Nosso_servico from  './imagens/Nossos_Projetos.gif'
 export default function Home(){
    console.log('chegou na home')
     return(
-       <div>
+       <div  className="app">
          <Menu_Superior/>
          <div className="Div_capa">
              
@@ -28,8 +28,8 @@ export default function Home(){
                     
                      <span className="Textos_secao">Transformamos suas ideias em realidades tangíveis com inovação, paixão e excelência. Nosso compromisso é construir um futuro brilhante ao seu lado, oferecendo soluções personalizadas que impulsionam o sucesso e superam expectativas.</span> 
                      <div className="div_buttons_web">
-                     <Button variant="info" className="button_servicos">Contato<TbArrowBigRightLinesFilled /> </Button>
-                     <Button variant="info" className="button_servicos">Serviços<TbArrowBigRightLinesFilled /> </Button>
+                     <Button variant="info" className="button_servicos">Contato<TbArrowBigRightLinesFilled  className="seta" /> </Button>
+                     <Button variant="info" className="button_servicos">Serviços<TbArrowBigRightLinesFilled  className="seta"/> </Button>
                      </div>
                  
                   </div>
@@ -88,7 +88,7 @@ export default function Home(){
         
            </motion.div >
           
-           <Button variant="info" className="button_servicos">Veja mais <TbArrowBigRightLinesFilled /> </Button>
+           <Button variant="info" className="button_servicos">Veja mais <TbArrowBigRightLinesFilled  className="seta"/> </Button>
           </div> 
 
         
@@ -104,7 +104,7 @@ export default function Home(){
                      <div className="divisao_1"></div>
                   </div>
                   <div className="respos_img">
-                   <img src={foto} className="imagem_banner"></img> 
+                   <img src={foto} className="Img_respo"></img> 
                   </div>
             
           
@@ -119,11 +119,12 @@ export default function Home(){
             
                <img src={Nosso_servico} className="img_projeto"/>
 
-            <Button variant="info"  className="button_servicos">Portfólio   <TbArrowBigRightLinesFilled /> </Button> 
-        
+               <Button variant="info"  className="button_servicos">Portfólio   <TbArrowBigRightLinesFilled  className="seta" />
+             </Button>   
+
       
             </div>
-
+          
          
           <div className="depoimentos">
 
@@ -141,25 +142,31 @@ export default function Home(){
           
           <div className="sUb_div_sobre">
 
-               <div className="div_sobre">
+            <div className="div_sobre">
                <span  className="Textos_secao_2">
-               Texto do LeandroTexto do LeandroTexto do LeandroTexto do LeandroTexto do LeandroTexto do LeandroTexto do LeandroTexto do LeandroTexto do LeandroTexto do LeandroTexto do LeandroTexto do LeandroTexto do Leandro.
+               Desde o início da graduação, identificamos uma necessidade significativa no mercado. Motivados pela disposição e pelo desejo constante de aprender e evoluir, unimos nossas forças. 
                 </span>
-                <h3>Founder Init. Solutions</h3>
+                <h3 className="text_founder">Founder Init. Solutions</h3>
                 <span  className="Textos_secao_2">
                 Desde o início da graduação, identificamos uma necessidade significativa no mercado. Motivados pela disposição e pelo desejo constante de aprender e evoluir, unimos nossas forças. Com coragem e iniciativa, transformamos essa ideia em uma realidade concreta.
                 </span>
-                <h3>Co-Founder Init. Solutions</h3>
-               </div>
+                <h3 className="text_founder">Co-Founder Init. Solutions</h3>
+          </div>
                <div className="div_sobre_init">
           
-                  <span className="Textos_secao_2">
+                  <p className="Textos_secao_2">
                   A Init Solutions nasceu da idealização de dois jovens graduandos em Engenharia de Software, determinados a revolucionar o desenvolvimento web. 
-
+                  </p>
+                  <br/>
+                  <p  className="Textos_secao_2" >
                   Com uma visão clara e ambiciosa, eles se especializaram na criação de sites responsivos e designs inovadores. 
+                  </p>
+                  <br/>
+                 <p  className="Textos_secao_2" >
+                 A Init. Solutions se compromete a oferecer soluções de alta qualidade, garantindo que cada projeto seja visualmente atraente, funcional em qualquer dispositivo e alinhado com as necessidades específicas de cada cliente. 
+                 </p>
 
-                  A Init. Solutions se compromete a oferecer soluções de alta qualidade, garantindo que cada projeto seja visualmente atraente, funcional em qualquer dispositivo e alinhado com as necessidades específicas de cada cliente. 
-                  </span>
+               
                </div>
 
           </div>
@@ -173,7 +180,7 @@ export default function Home(){
           <div className="Solici_orcamento"  >
              <h1>Solicite já seu orçamento!</h1>
              <h3>Solicite seu orçamento agora mesmo que nossos consultores entrarão em contato.</h3>
-             <Button variant="info"  className="button_servicos">Orçamento <IoIosArrowForward /> </Button>  
+             <Button variant="info"  className="button_servicos">Orçamento <IoIosArrowForward className="seta" /> </Button>  
           </div>
           
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7188.497017442679!2d-53.077024210012475!3d-25.729294244325963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f047d8e26e7057%3A0x8a642cc2991886d9!2sJardim%20da%20Colina%2C%20Dois%20Vizinhos%20-%20PR%2C%2085660-000!5e0!3m2!1spt-BR!2sbr!4v1715826299626!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className="mapa"></iframe>

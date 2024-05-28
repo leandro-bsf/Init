@@ -23,26 +23,11 @@ const [classOn, setClassOn] = useState(false);
 
            <nav>
             <ul>
-               <li>
-             
-             <Link to="/" > Home</Link>
-             </li>
-         
-              <li>
-             
-                <Link to="/Sobre_nos" >Sobre </Link>
-              </li>
-              <li>
-              
-                <Link to="/Nossos_servico" > Serviços</Link>
-              </li>
-              <li>
-                <Link to="/Sobre_nos" > Portfólio</Link>
-              </li>
-          
-              <li>
-              <Link to="/Contato" > Contato</Link>
-              </li>
+              <li><Link to="/" className='link' > Home</Link>  </li>
+              <li><Link to="/Sobre_nos"  className='link' >Sobre </Link> </li>
+              <li><Link to="/Nossos_servico" className='link'  > Serviços</Link></li>
+              <li> <Link to="/Sobre_nos"  className='link'> Portfólio</Link> </li>
+             <li><Link to="/Contato"  className='link'> Contato</Link>  </li>
              
             </ul>
             

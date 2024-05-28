@@ -23,11 +23,11 @@
  
 }
 .Textos_secao_2{
-    font-size: 25px;
+    font-size: 22px;
     font-family: 'Open Sans';
     margin: auto;
-
-    color: rgb(75, 66, 66)  ;
+   
+    color: rgb(0, 0, 0)  ;
 }
 
 @media (max-width: 750px)  {
