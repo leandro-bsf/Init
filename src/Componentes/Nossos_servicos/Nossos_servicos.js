@@ -5,6 +5,8 @@ import Menu_Superior from "../Menu_superior/Menu_superior"
 import { IoIosArrowForward } from "react-icons/io";
 import Button from 'react-bootstrap/Button';
 import Protopipacao from './imagem/prototipacao.svg'
+import Orcamento_mapa from "../Orcamento_mapa";
+import Roda_pe from "../Roda_pe";
 export default function Nossos_servico (){
     return(
             <div className="Div_nossos_servico">
@@ -30,7 +32,6 @@ export default function Nossos_servico (){
                    </div>
 
                  
-                  
                 </div>
               
 
@@ -69,7 +70,8 @@ export default function Nossos_servico (){
    
     
       </div>
-
+      <Orcamento_mapa />
+      
             </div>
     )
 }

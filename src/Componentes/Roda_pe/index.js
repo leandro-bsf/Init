@@ -47,7 +47,7 @@ export default function Roda_pe(){
                     <div className="social-media-container">
                     <h3>Redes Sociais</h3>
                     <div className="div-social">
-                         <FaFacebook className="social-icon"  />
+                         <FaFacebook className="social-icon" style={{color: '#3f729b'}} />
                          <LuInstagram className="social-icon" />
                         <FaTiktok className="social-icon" />
                     </div>

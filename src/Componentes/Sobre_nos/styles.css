@@ -9,7 +9,6 @@
 .sub_text{
     width: 100%;
     font-size: 20px;
-    background-color: aqua;
     text-align: center;
     padding: 30px;
     height: 150px;
@@ -56,7 +55,7 @@
 .Div_cards{
 
   border-top: 1px solid black;
-   width: 90%;
+   width: 100%;
    padding: 10px;
    align-items: center;
    margin: 50px;
@@ -66,7 +65,11 @@
   
 
 }
-
+.Missao{
+    background-image: url('./imagens//missao.jpg');
+    height: 210px;
+    width: 100%;
+}
 @media (max-width: 750px)  {
    .div_text{
     display: block;
@@ -83,7 +86,8 @@
         width: 100%;
         margin: auto;
         text-align: center;
-    }.Titulo{
+    }
+    .Titulo{
 
      font-size: 25px;
 

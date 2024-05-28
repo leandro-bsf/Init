@@ -5,6 +5,7 @@ import Menu_Superior from "../Menu_superior/Menu_superior"
 import '../Style_universal.css'
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
+import Orcamento_mapa from "../Orcamento_mapa";
 
 export default function Sobre_nos(){
     return(
@@ -20,19 +21,18 @@ export default function Sobre_nos(){
              <div className="Div_cards">
               
             <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">
-                <Tab eventKey="Missão" title="Missão"> Criação de sites mobiles e responsivos. Sites que se adaptam a qualquer resolução de tela, sem criar barra de rolagem. Em 2016, o acesso à internet via dispositivos móvel (ou mobile) ultrapassou os acessos via desktop. </Tab>
-                <Tab eventKey="Valores" title="Valores">Criação de sites mobiles e responsivos. Sites que se adaptam a qualquer resolução de tela, sem criar barra de rolagem.Em 2016, o acesso à internet via dispositivos móvel (ou mobile) ultrapassou os acessos via desktop.</Tab>
-                <Tab eventKey="Visão" title="Visão" > TCriação de sites mobiles e responsivos. Sites que se adaptam a qualquer resolução de tela, sem criar barra de rolagem. Em 2016, o acesso à internet via dispositivos móvel (ou mobile) ultrapassou os acessos via desktop.</Tab>
+                <Tab eventKey="Missão" title="Missão" className="Missao"> Criar soluções digitais excepcionais que impulsionam o sucesso dos nossos clientes, expandindo sua presença online, fortalecendo sua marca e alcançando novos mercados </Tab>
+
+                <Tab eventKey="Valores" title="Valores">Cliente em primeiro lugar: Priorizamos a satisfação dos nossos clientes, construindo relacionamentos duradouros e de confiança, oferecendo um atendimento personalizado e ágil. Criatividade e Inovação: Buscamos constantemente novas ideias e soluções tecnológicas para superar as expectativas dos nossos clientes, mantendo-nos atualizados com as últimas tendências do mercado digital.
+                  Qualidade e Excelência: Nos dedicamos a entregar projetos impecáveis, com alto nível de qualidade e dentro dos prazos acordados, garantindo a total satisfação dos nossos clientes.
+                </Tab>
+
+                 
+                <Tab eventKey="Visão" title="Visão" > Ser a referência em desenvolvimento de sites e home pages, reconhecida pela excelência, inovação e impacto positivo nos negócios dos nossos clientes, tornando-se a escolha preferida de empresas que buscam crescimento e sucesso digital.</Tab>
     </Tabs>
              </div>
-             <div className="sub_text" >
-             <span>
-             nenhum problema pode ser resolvido pelo mesmo estado de consciência que o criou.
-                nenhum problema pode ser resolvido pelo mesmo estado de consciência que o criou.
-             </span>
-             <h2 className="init">init. solutions</h2>
-             </div>
-       
+           
+         <Orcamento_mapa/>
 
         </div>
      )

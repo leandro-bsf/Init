@@ -1,3 +1,6 @@
+.container{
+  display: block;
+}
 .roda_pe{
     display: flex;
     align-items: center;

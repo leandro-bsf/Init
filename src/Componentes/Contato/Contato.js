@@ -5,6 +5,8 @@ import '../Style_universal.css'
 import Button from 'react-bootstrap/Button';
 import '../Style_universal.css'
 import { IoIosArrowForward } from "react-icons/io";
+
+import Orcamento_mapa from "../Orcamento_mapa";
 export default function Contato(){
     return(
 
@@ -35,6 +37,8 @@ export default function Contato(){
        </div>
     
    </div>
+   <Orcamento_mapa />
+                  
    </div>
    
     )

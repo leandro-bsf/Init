@@ -15,7 +15,7 @@
 
 .form_contato{
     display: grid;
-
+    height: 350px;
    width: 28%;
     margin-left: 230px;
 
@@ -53,6 +53,7 @@
 .Div_Contato_principal{
     text-align: center;
     align-items: center;
+   
 }
 @media (max-width: 750px)  {
     .div_texto{
