@@ -10,6 +10,13 @@
     width: 100%;
     height: 350px;
 }
-.seta {
-    margin-left:70px;
+
+@media (max-width: 750px)  {
+
+    .Solici_orcamento{
+        padding: 0px;
+        height: 200px;
+        padding-top: 30px;
+        
+    } 
 }

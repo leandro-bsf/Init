@@ -18,6 +18,7 @@
 .div_buttons_web{
     display: flex;
 }
+
 .div_buttons_mobile{
     display: none;
  
@@ -83,16 +84,7 @@
     
 
 }
-.button_servicos{
-    font-family: 'Quicksand';
-    font-size: 20px;
-    width: 300px;
-    margin-top: 50px;
-   
-    text-align: right;
-    color: white;
-     
-}
+
 .titulo_servicos{
     font-weight: bold;
      font-size: 25px;
@@ -145,9 +137,7 @@
     height: auto;
     padding: 30px;
 }
-.seta {
-    margin-left:70px;
-}
+
 
 .Perguntas{
     align-items: center;
@@ -156,14 +146,7 @@
     width: 100%;
    
 }
-.Solici_orcamento{
-    background-image: url('./imagens/orcamento.png');
-    text-align: center;
-    height: 340px;
-    align-items: center;
-    padding: 70px;
-    color: white;
-}
+
 .mapa{
     width: 100%;
     height: 350px;
@@ -258,14 +241,7 @@
         margin: auto;
         align-items: center;  
     }
-    .div_buttons_mobile button{
-        display: block;
-        border-radius: 10px;
-        width: 100%;
-        font-family: 'Quicksand';
-        font-size: 15px;
-        margin-top: 20px;
-    }
+   
     .div_buttons_web{
         display: none;
     }
@@ -286,9 +262,7 @@
     .titulo_servicos{
         font-size: 15px;
     }
-    .button_servicos{
-        font-size: 15px;   
-    }
+    
     .Div_text_resp{
         width: 100%;
         margin: 10px;
@@ -341,16 +315,8 @@
     
     }
    
-    .Solici_orcamento{
-        padding: 5x;
-        padding-top: 20px;
-        height: 300px;
-         
-    }
-    .button_servicos{
-        width: 90%;
-        text-align: center;
-    }
+   
+   
    
 
 }

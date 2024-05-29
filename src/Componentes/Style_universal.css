@@ -29,9 +29,31 @@
    
     color: rgb(0, 0, 0)  ;
 }
+.botao_padrao{
+    font-family: 'Quicksand';
+    font-size: 20px;
+    width: 300px;
 
+   align-items: center;
+    text-align: right;
+    color: white;
+     
+}
+.seta{
+    margin-left: 70px;
+}
 @media (max-width: 750px)  {
+    .botao_padrao{
+        margin: 5px;
+         align-items: center;
+        text-align: center;
+      
+        padding-left: 60px;
+    }
+    .seta{
+        margin-left: 70px;
     
+    }
     .Titulo_h2  {
       
         font-size: 30px;

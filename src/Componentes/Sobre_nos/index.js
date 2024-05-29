@@ -6,6 +6,7 @@ import '../Style_universal.css'
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import Orcamento_mapa from "../Orcamento_mapa";
+import foto  from './imagens/20943892.jpg'
 
 export default function Sobre_nos(){
     return(
@@ -23,7 +24,9 @@ export default function Sobre_nos(){
             <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">
                 <Tab eventKey="Missão" title="Missão" className="Missao"> Criar soluções digitais excepcionais que impulsionam o sucesso dos nossos clientes, expandindo sua presença online, fortalecendo sua marca e alcançando novos mercados </Tab>
 
-                <Tab eventKey="Valores" title="Valores">Cliente em primeiro lugar: Priorizamos a satisfação dos nossos clientes, construindo relacionamentos duradouros e de confiança, oferecendo um atendimento personalizado e ágil. Criatividade e Inovação: Buscamos constantemente novas ideias e soluções tecnológicas para superar as expectativas dos nossos clientes, mantendo-nos atualizados com as últimas tendências do mercado digital.
+                <Tab eventKey="Valores" title="Valores">
+              
+                  Cliente em primeiro lugar: Priorizamos a satisfação dos nossos clientes, construindo relacionamentos duradouros e de confiança, oferecendo um atendimento personalizado e ágil. Criatividade e Inovação: Buscamos constantemente novas ideias e soluções tecnológicas para superar as expectativas dos nossos clientes, mantendo-nos atualizados com as últimas tendências do mercado digital.
                   Qualidade e Excelência: Nos dedicamos a entregar projetos impecáveis, com alto nível de qualidade e dentro dos prazos acordados, garantindo a total satisfação dos nossos clientes.
                 </Tab>
 
