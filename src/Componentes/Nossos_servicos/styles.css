@@ -4,6 +4,10 @@
    
 }
 
+.titulo_servico{
+    margin-top: 50px;
+}
+
 .Text_Prototipagem{
      display: block;
      width: 50%;
@@ -16,6 +20,25 @@
     align-items: center;
     text-align: center;
     display: flex;
+
+}
+.processo_criacao{
+    height: 350px;
+    width: 100%;
+ 
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+}
+.criacao_text{
+  
+    width: 350px;
+    height: 90%;
+    background-color: aqua;
+    margin-left: 140px;
+    transform: rotate(270deg); /* Rotaciona o texto 90 graus no sentido horário */
+   
+
 }
 @media (max-width: 750px)  {
     .Text_Prototipagem{

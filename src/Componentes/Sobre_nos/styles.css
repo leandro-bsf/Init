@@ -61,13 +61,13 @@
    margin: 50px;
    font-family: 'Open Sans';
    font-size: 25px;
-   height: 250px;
+   height: auto;
   
 
 }
-.Missao{
+.item{
     background-image: url('./imagens/20943892.jpg');
-    height: 210px;
+   height: auto;
     width: 100%;
 }
 @media (max-width: 750px)  {
@@ -77,10 +77,19 @@
     margin-top: 0px;
    }
     .Div_cards{
-        display: block;
+       
         width: 100%;
-        margin: auto;
-        padding: 30px;
+        margin: 0px;
+        margin-top: 20px;
+        padding: 0px;
+    }
+    .item{
+        width: 90%;
+        background-color: aqua;
+        height: auto;
+        margin: 10px;
+        text-align: center;
+        font-size: 20px;
     }
     .sub_text{
         width: 100%;
