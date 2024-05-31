@@ -12,9 +12,8 @@
      display: block;
      width: 50%;
 }
-.Img_Prototipagem{
-    width: 50%;
-  
+.servico_item img{
+    width: 50px;
 }
 
 .processo_criacao{
@@ -50,7 +49,7 @@
     margin-top: 30px;
     width: 100%;
     border-radius: 10px;
-    height: 450px;
+    height: auto;
     background-color: rgb(0, 0, 0);
     box-shadow: 15px 4px 8px rgba(0, 0, 0, 0.7);
 }
@@ -65,8 +64,12 @@
     background-color: white;
     font-size: 17px;
     margin: 40px;
+    padding: 30px;
 }
-
+.icone_servico{
+    width: 350px;
+    height: 200px;
+}
  
 @media (max-width: 750px)  {
     .Text_Prototipagem{
@@ -102,9 +105,16 @@
     .Container_servicos{
          height: auto;
         padding: 5px;
+        width: 97%;
     }
     .servico_item{
        padding: 10px;
+       width: 90%;
+       font-size: 15px;
+       margin: 15px;
+    }
+    .servico_item h1{
+        font-size: 25px;
     }
 
 }

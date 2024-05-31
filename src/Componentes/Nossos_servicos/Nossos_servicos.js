@@ -23,19 +23,38 @@ export default function Nossos_servico (){
                 
           <Container className="Container_servicos">
                 <Container className="servico_item">
-                   <h1>Prototipação</h1>
-                    <img src={prototipacao}/> <br/>
+                   <h1>Prototipação</h1> 
+                   <lord-icon
+                  src="https://cdn.lordicon.com/vvqcrgre.json"
+                  trigger="hover"
+                  style={{width: '150px' , height: '150px'}}>
+                  </lord-icon> <br/>
                    <span>
-                   A prototipagem é uma etapa crucial no nosso processo de criação, permitindo testar e refinar conceitos antes da produção final. Utilizamos ferramentas avançadas e técnicas modernas para criar protótipos precisos e funcionais. Essa abordagem nos permite identificar e corrigir problemas potenciais de forma rápida e econômica. Envolvemos os clientes no processo para garantir que suas visões e requisitos sejam plenamente incorporados.
+                   A prototipagem é uma etapa crucial no nosso processo de criação,
+                   permitindo testar e refinar conceitos antes da produção final.
+                    Utilizamos ferramentas avançadas e técnicas modernas para criar
+                   protótipos precisos e funcionais. 
+                  Envolvemos os clientes no processo para garantir que suas visões e 
+                  requisitos sejam plenamente incorporados.
                    </span>
                 </Container>
 
                 <Container  className="servico_item">
                   
                    <h1>Desenvolvimento</h1>
-                   <img src={Desenvolvimento}/>  <br/>
+                   <lord-icon
+                  src="https://cdn.lordicon.com/pqrtuvvq.json"
+                     trigger="hover"
+                   style={{width: '150px' , height: '150px'}}>
+                  </lord-icon> <br/>
                    <span>
-                   No nosso processo de desenvolvimento, combinamos criatividade e tecnologia para transformar ideias em produtos viáveis. Desde a concepção inicial até a fase de implementação, nossa equipe trabalha de forma colaborativa para garantir que cada projeto atenda aos mais altos padrões de qualidade. Utilizamos metodologias ágeis para adaptar-nos rapidamente às mudanças e necessidades do mercado. Com um foco contínuo na inovação, buscamos soluções eficientes e sustentáveis.
+                   No nosso processo de desenvolvimento, combinamos criatividade e
+                    tecnologia para transformar ideias em produtos viáveis.
+                     Desde a concepção inicial até a fase de implementação, 
+                     nossa equipe trabalha de forma colaborativa para garantir
+                      que cada projeto atenda aos mais altos padrões de qualidade.
+                      Com um foco contínuo na inovação, 
+                      buscamos soluções eficientes e sustentáveis.
                    </span>
                 </Container>
                  
