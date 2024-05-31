@@ -1,102 +1,71 @@
 .Div_principal{
-    background-image: url('./imagens/fundo.svg');
+    /* background-image: url('./imagens/fundo.svg'); */
     background-size:  cover;
     width: 100%;
     align-items: center;
-    height:450px;
+    height:auto;
+    text-align: center;
     
 }
-.sub_text{
-    width: 100%;
-    font-size: 20px;
-    text-align: center;
-    padding: 30px;
-    height: 150px;
 
- 
-}
 .Div_sobre{
     text-align: center;
     align-items: center;
-    padding: 60px;
-    height: 350px;
+    margin-top: 30px;
+    height: auto;
 }
 
-.init{
-    margin-left: 5px;
-}
 .Titulo{
-    color: white;
+    color: rgb(2, 2, 2);
     font-family: 'Open Sans';
     font-size: 35px;
     
 
 }
 .Div_sobre h3{
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: 'Open Sans';
     font-size: 20px;
     
 
 }
-.div_text{
-    width: 100%;
 
-    text-align: center;
-    align-items: center;
-    font-size: 15px;
-    height: 250px;
-    padding: 40px;
-    margin-top: 50px;
-    display: flex;
-    font-family: 'Open Sans';
-}
 
 .Div_cards{
 
   border-top: 1px solid black;
-   width: 100%;
-   padding: 10px;
+   width: 95%;
+   
    align-items: center;
    margin: 50px;
    font-family: 'Open Sans';
    font-size: 25px;
    height: auto;
-  
-
+   align-items: center;
 }
-.item{
-    background-image: url('./imagens/20943892.jpg');
-   height: auto;
-    width: 100%;
+
+.foto_sobre{
+    width: 50%;
+    height: 350px;
+    
 }
 @media (max-width: 750px)  {
-   .div_text{
-    display: block;
-    width: 100%;
-    margin-top: 0px;
-   }
+
     .Div_cards{
        
-        width: 100%;
-        margin: 0px;
+        width: 95%;
+        margin: auto;
         margin-top: 20px;
         padding: 0px;
-    }
-    .item{
-        width: 90%;
-        background-color: aqua;
-        height: auto;
-        margin: 10px;
-        text-align: center;
         font-size: 20px;
     }
-    .sub_text{
-        width: 100%;
-        margin: auto;
-        text-align: center;
+   
+    .foto_sobre{
+       height: auto;
+       width: 90%;
     }
-    .Titulo{
+    
+      .Titulo{
 
      font-size: 25px;
 
