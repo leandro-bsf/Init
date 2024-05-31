@@ -8,7 +8,10 @@ import Protopipacao from './imagem/prototipacao.svg'
 import Orcamento_mapa from "../Orcamento_mapa";
 import Roda_pe from "../Roda_pe";
 import '../Style_universal.css'
-import processo from './imagem/processor_criacao.png'
+import processo from './imagem/Processo de criação 2.svg'
+import Desenvolvimento from  './imagem/desenvolvimento.gif'
+import prototipacao from  './imagem/prototipacao.gif'
+import Container from 'react-bootstrap/Container';
 export default function Nossos_servico (){
     return(
             <div className="Div_nossos_servico">
@@ -17,64 +20,29 @@ export default function Nossos_servico (){
                     <h1>Nossos Serviços</h1>
                      <h2 className="sub_Titulo_h2">Entenda mais sobre nossos serviços <h2 className="Titulo_h2_azul">ofertados.</h2></h2>
                     </div>
-                  
-
-                <div className="div_secundaria">
-                    <div className="Img_Prototipagem">
-                       <img src={Protopipacao} className="imagem_servico"/>
-
-                    </div>
-                   
-                   <div className="Text_Prototipagem">
-                   <h2>Prototipação</h2>
-                     <span>
-                     Arquitetamos seu produto e desenvolvemos o conceito e comunicação visual. Por fim, é feito o design de todas as telas!
-                     </span> <br/>
-
-                     <Button variant="info"  className="button_servicos">Portfólio <IoIosArrowForward /> </Button>   
-
-
-                   </div>
-
-                 
-                </div>
-              
-
- 
-
                 
-        
-    <div className="div_secundaria">
-    <div className="Text_Prototipagem">
-          <h2>Processo de criação</h2>
-        <span>
-          Conheça um pouco do nosso processo de criação.
-        </span> <br/>
-        <Button variant="info"  className="button_servicos">Portfólio <IoIosArrowForward /> </Button>  
-      
-       </div>
-    <div className="Img_Prototipagem">
-       <img src={Protopipacao}  className="imagem_servico" />
-             
-     </div> 
-   
-    
-      </div>
+          <Container className="Container_servicos">
+                <Container className="servico_item">
+                   <h1>Prototipação</h1>
+                    <img src={prototipacao}/> <br/>
+                   <span>
+                   A prototipagem é uma etapa crucial no nosso processo de criação, permitindo testar e refinar conceitos antes da produção final. Utilizamos ferramentas avançadas e técnicas modernas para criar protótipos precisos e funcionais. Essa abordagem nos permite identificar e corrigir problemas potenciais de forma rápida e econômica. Envolvemos os clientes no processo para garantir que suas visões e requisitos sejam plenamente incorporados.
+                   </span>
+                </Container>
 
-      <div className="div_secundaria">
-                <div  className="processo_criacao">
-                  <div className="criacao_text">
-                  <h2>Processo de criação</h2>
-                   <span>Conheça um pouco do nosso processo de criação.</span>
-
-                  </div>
-                  <img src={processo}></img>
+                <Container  className="servico_item">
+                  
+                   <h1>Desenvolvimento</h1>
+                   <img src={Desenvolvimento}/>  <br/>
+                   <span>
+                   No nosso processo de desenvolvimento, combinamos criatividade e tecnologia para transformar ideias em produtos viáveis. Desde a concepção inicial até a fase de implementação, nossa equipe trabalha de forma colaborativa para garantir que cada projeto atenda aos mais altos padrões de qualidade. Utilizamos metodologias ágeis para adaptar-nos rapidamente às mudanças e necessidades do mercado. Com um foco contínuo na inovação, buscamos soluções eficientes e sustentáveis.
+                   </span>
+                </Container>
                  
-                </div>
-   
-
-            </div>
-
+          </Container>
+          <Container>
+                    <img  src={processo} className="processos"></img>
+                 </Container>
       <Orcamento_mapa />
       
             </div>

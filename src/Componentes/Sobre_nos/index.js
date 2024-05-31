@@ -41,7 +41,7 @@ export default function Sobre_nos(){
             </Nav.Item>
           </Nav>
         </Col>
-        <Col sm={9}>
+        <Col sm={9} className="Conteudo">
           <Tab.Content>
             <Tab.Pane eventKey="first">    Criar soluções digitais excepcionais que impulsionam o sucesso dos nossos clientes, expandindo sua presença online, fortalecendo sua marca e alcançando novos mercados .</Tab.Pane>
             <Tab.Pane eventKey="second">   Cliente em primeiro lugar: Priorizamos a satisfação dos nossos clientes, construindo relacionamentos duradouros e de confiança, oferecendo um atendimento personalizado e ágil. Criatividade e Inovação: Buscamos constantemente novas ideias e soluções tecnológicas para superar as expectativas dos nossos clientes, mantendo-nos atualizados com as últimas tendências do mercado digital.

@@ -26,7 +26,7 @@ const [classOn, setClassOn] = useState(false);
               <li><Link to="/" className='link' > Home</Link>  </li>
               <li><Link to="/Sobre_nos"  className='link' >Sobre </Link> </li>
               <li><Link to="/Nossos_servico" className='link'  > Serviços</Link></li>
-              <li> <Link to="/Sobre_nos"  className='link'> Portfólio</Link> </li>
+              <li> <Link to="/Portifolio"  className='link'> Portfólio</Link> </li>
              <li><Link to="/Contato"  className='link'> Contato</Link>  </li>
              
             </ul>

@@ -5,6 +5,7 @@ import Home from './Componentes/Home/Home';
 import Contato from './Componentes/Contato/Contato'
 import Sobre_nos from './Componentes/Sobre_nos';
 import Nossos_servico from './Componentes/Nossos_servicos/Nossos_servicos';
+import Portifolio from './Componentes/Portifolio';
 const Rota = () => {
   return (
     <BrowserRouter>
@@ -12,6 +13,7 @@ const Rota = () => {
       <Route component = { Contato }  path="/Contato" />
       <Route component = { Sobre_nos }  path="/Sobre_nos" />
       <Route component = { Nossos_servico }  path="/Nossos_servico" />
+      <Route component = { Portifolio }  path="/Portifolio" />
       </BrowserRouter>
   );
 };
