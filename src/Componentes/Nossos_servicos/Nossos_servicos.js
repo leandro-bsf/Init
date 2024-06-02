@@ -17,8 +17,8 @@ export default function Nossos_servico (){
             <div className="Div_nossos_servico">
                     <Menu_Superior />
                     <div className="titulo_servico">
-                    <h1>Nossos Serviços</h1>
-                     <h2 className="sub_Titulo_h2">Entenda mais sobre nossos serviços <h2 className="Titulo_h2_azul">ofertados.</h2></h2>
+                    <h2 className="Titulo_h2">Nossos Serviços</h2>
+                     <h2 className="sub_Titulo_h2">Entenda mais sobre nossos serviços <span className="Titulo_h2_azul">ofertados.</span></h2>
                     </div>
                 
           <Container className="Container_servicos">

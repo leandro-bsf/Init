@@ -14,8 +14,8 @@ export default function Portifolio(){
     <div className='Container_principal'>
         <Menu_Superior/>
         <div className='Titulos'>
-        <h1>Cases de Sucesso</h1>
-        <span>Conheça um pouco dos projetos que já realizamos.</span>
+        <h2 className="Titulo_h2">Cases de Sucesso</h2>
+        <h2 className="sub_Titulo_h2">Conheça um pouco dos <span className="Titulo_h2_azul">projetos</span>  que já realizamos.</h2>
         </div>
        
         <motion.div className='container-items'

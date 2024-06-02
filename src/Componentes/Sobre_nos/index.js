@@ -17,9 +17,9 @@ export default function Sobre_nos(){
         <div className="Div_sobre">
              
 
-                <h2 className="Titulo">Sobre nós</h2>
-                <h3>Somos uma empresa com foco em criação 
-                  de sites</h3>
+                <h2 className="Titulo_h2">Sobre nós</h2>
+                <h2 className="sub_Titulo_h2">Somos uma empresa com foco em <span className="Titulo_h2_azul">criação </span> 
+                  de sites.</h2>
                   <img src={foto} className="foto_sobre"></img>
       
         </div>

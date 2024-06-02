@@ -6,7 +6,7 @@
  
 }
 .Titulos{
-  margin: 70px;
+  margin-top: 50px;
 }
 .container-items {
   display: flex;
@@ -45,5 +45,7 @@
 
 
 @media (max-width: 750px)  {
-
+ .container_portifolio{
+  width: 90%;
+ }
 }
