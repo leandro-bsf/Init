@@ -8,6 +8,9 @@
     height: 100%;
   
 }
+.Contato_item{
+  align-items: first baseline;
+}
 
 .container_principal{
     display: block;

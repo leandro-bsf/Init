@@ -48,7 +48,7 @@ export default function Home(){
 
           <h2 className="Titulo_h2">O que fazemos?</h2>
           <h2 className="sub_Titulo_h2">Veja quais <span className="Titulo_h2_azul" >serviços</span>  oferecemos e como podemos ajudar você.</h2>
-
+         
            <motion.div className="Servicos_itens" 
               initial={{opacity: 0 , x: -50}}
               whileInView={{opacity: 1 , x: 0}}
@@ -120,7 +120,7 @@ export default function Home(){
             
                <img src={Nosso_servico} className="img_projeto"/>
 
-               <Button variant="info"  className="botao_padrao">Portfólio   <TbArrowBigRightLinesFilled  className="seta" />
+            <Button variant="info"  className="botao_padrao">Portfólio   <TbArrowBigRightLinesFilled  className="seta" />
              </Button>   
 
       

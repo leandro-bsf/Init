@@ -38,11 +38,11 @@ export default function Roda_pe(){
         <div class="box">
           
                     
-                <div className="Contato_item">
+                <div className="social-media-container">
                       <h3>Contato</h3>
                   <span style={{  color:  '#38b6ff'}}> <RiMapPinFill />  Francisco Beltrão - PR  </span> <br/>
                    <span style={{color:  '#38b6ff'}}> <FaPhoneAlt /> +554699170-4814</span>
-                    </div>
+                </div>
                    
                     <div className="social-media-container">
                     <h3>Redes Sociais</h3>
