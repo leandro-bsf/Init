@@ -3,16 +3,10 @@ import Menu_Superior from "../Menu_superior/Menu_superior"
 import './styles.css';
 import foto_banner  from  './imagens/image_banner.png'
 import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
-import { TiEdit } from "react-icons/ti";
-import { FaCode } from "react-icons/fa6";
 import { motion } from "framer-motion"
-import { IoIosArrowForward } from "react-icons/io";
-import TypeIt from "typeit-react";
 import Servicos from "../servicos/servicos";
 import Depoimentos from "../Depoimentos";
 import Perguntas from "../Perguntas";
-import Roda_pe from "../Roda_pe";
 import foto from  './imagens/responsividade.gif'
 import '../Style_universal.css'
 import { TbArrowBigRightLinesFilled } from "react-icons/tb";
@@ -45,10 +39,13 @@ export default function Home(){
                   </div>
              
          </div>
-         <  div className="Servicos" >               
+         < motion.div className="Servicos" initial={{opacity: 0 , x: -10}}
+            whileInView={{opacity: 1 , x: 0}}
+             exit={{opacity: 0}}
+               transition={{duration:  1.7}} >               
                < Servicos />
             <Button variant="info" className="botao_padrao">Veja mais <TbArrowBigRightLinesFilled  className="seta"/> </Button>
-          </div> 
+          </motion.div> 
 
         
             
@@ -72,9 +69,12 @@ export default function Home(){
             
            
   
-            <div className="Projetos" >      
+            <div className="Projetos">      
 
-             <h2 className="Titulo_h2">Nossos <span className="Titulo_h2"   style={{color: '#38b6ff'}}  >Projetos</span> </h2>
+             < motion.h2 className="Titulo_h2"  initial={{opacity: 0 , x: -10}}
+            whileInView={{opacity: 1 , x: 0}}
+            exit={{opacity: 0}}
+            transition={{duration:  1.7}} >Nossos <span className="Titulo_h2"   style={{color: '#38b6ff'}}  >Projetos</span> </ motion.h2>
             
                <img src={Nosso_servico} className="img_projeto"/>
 
@@ -82,21 +82,26 @@ export default function Home(){
              </Button>   
 
       
-            </div>
+            </ div>
           
          
           <div className="depoimentos">
 
             
-          <h2 className="Titulo_h2" >Depoimentos </h2>
+          <motion.h2 className="Titulo_h2" initial={{opacity: 0 , x: -10}}
+            whileInView={{opacity: 1 , x: 0}}
+            exit={{opacity: 0}}
+            transition={{duration:  1.7}}>Depoimentos </motion.h2>
          
           <h2 className="sub_Titulo_h2" > O que nossos <span  className="sub_Titulo_h2" style={{color: '#38b6ff'}}  >clientes</span>    dizem sobre nós</h2>
 
           <Depoimentos/>
 
           </div>
+
           <div className="Sobre_nos">
-            <h2 className="Titulo_h2" >O que é  a init<span   className="Titulo_h2_azul" >.</span></h2>   
+            <motion.h2 className="Titulo_h2" animate={{ x:-15 }}
+            transition={{ type: "spring", duration: 1.8 }} >O que é  a init<span   className="Titulo_h2_azul" >.</span></motion.h2>   
             <h2 className="sub_Titulo_h2"> Descubra um pouco mais sobre <span className="sub_Titulo_h2"  style={{color: '#38b6ff'}} >nós.</span> </h2>
           
           <div className="sUb_div_sobre">
@@ -111,7 +116,7 @@ export default function Home(){
                 </span>
                 <h3 className="text_founder">Co-Founder Init. Solutions</h3>
           </div>
-               <div className="div_sobre_init">
+               <motion.div className="div_sobre_init"  whileDrag={{ scale: 1.2 }} >
           
                   <p className="Textos_secao_2">
                   A Init Solutions nasceu da idealização de dois jovens graduandos em Engenharia de Software, determinados a revolucionar o desenvolvimento web. 
@@ -126,7 +131,7 @@ export default function Home(){
                  </p>
 
                
-               </div>
+               </motion.div>
 
           </div>
          

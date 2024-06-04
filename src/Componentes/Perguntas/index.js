@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './style.css';
+import { motion } from "framer-motion"
 import { IoIosArrowForward } from "react-icons/io";
 const Accordion = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -40,12 +41,13 @@ const Accordion = () => {
     <div className="accordion">
        
            
-             <div className="titulo">
+             <motion.div className="titulo"  animate={{ x:-15 }}
+  transition={{ type: "spring", duration: 1.8 }}>
              <IoIosArrowForward   size={22}  className='seta_fixa'/>
              <h2> Perguntas Frequentes</h2>
            
               <span> Veja as dúvidas frequentes e suas<span style={{color:'#38b6ff'}}> respostas.</span> </span>
-             </div>
+             </motion.div>
       {perguntas.map((item, index) => (
         <div key={item.id} className={`accordion-item ${activeIndex === index ? 'active' : ''}`}>
           <div className="accordion-header" onClick={() => toggleAccordion(index)}>

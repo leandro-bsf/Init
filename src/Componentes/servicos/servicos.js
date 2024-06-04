@@ -24,9 +24,10 @@ export default function servicos (){
     return(
             <div className="Div_nossos_servico">
                  
-                    <motion.div className="titulo_servico"   initial={{ opacity: 0 }}
-  whileInView={{ opacity: 1 }}
->
+                    <motion.div className="titulo_servico"  initial={{opacity: 0 , x: -10}}
+     whileInView={{opacity: 1 , x: 0}}
+     exit={{opacity: 0}}
+     transition={{duration:  1.7}}  >
                     <h2 className="Titulo_h2">O que fazemos?</h2>
                      <h2 className="sub_Titulo_h2">Veja quais <span className="Titulo_h2_azul">serviços </span>oferecemos e como podemos ajudar você.</h2>
                     </motion.div>
@@ -52,7 +53,10 @@ export default function servicos (){
 
                 <Container  className="servico_item">
                   
-                   <h1>Desenvolvimento</h1>
+                   <motion.h1 initial={{opacity: 0 , x: -10}}
+                   whileInView={{opacity: 1 , x: 0}}
+                   exit={{opacity: 0}}
+                  transition={{duration:  1.7}}>Desenvolvimento</motion.h1>
                    <lord-icon
                   src="https://cdn.lordicon.com/pqrtuvvq.json"
                      trigger="hover"

@@ -7,6 +7,7 @@ import Col from 'react-bootstrap/Col';
 import Nav from 'react-bootstrap/Nav';
 import Row from 'react-bootstrap/Row';
 import Tab from 'react-bootstrap/Tab';
+import { motion } from "framer-motion"
 import Orcamento_mapa from "../Orcamento_mapa";
 import  foto from './imagens/5278.jpg'
 
@@ -17,14 +18,18 @@ export default function Sobre_nos(){
         <div className="Div_sobre">
              
 
-                <h2 className="Titulo_h2">Sobre nós</h2>
+                <motion.h2 className="Titulo_h2" animate={{ x:-15 }}
+  transition={{ type: "spring", duration: 1.8 }}>Sobre nós</motion.h2>
                 <h2 className="sub_Titulo_h2">Somos uma empresa com foco em <span className="Titulo_h2_azul">criação </span> 
                   de sites.</h2>
                   <img src={foto} className="foto_sobre"></img>
       
         </div>
          
-             <div className="Div_cards">
+             <motion.div className="Div_cards"  initial={{opacity: 0 , x: -100}}
+       whileInView={{opacity: 1 , x: 0}}
+       exit={{opacity: 0}}
+       transition={{duration: 0.5}}>
             
              <Tab.Container id="left-tabs-example" defaultActiveKey="first">
       <Row>
@@ -53,7 +58,7 @@ export default function Sobre_nos(){
         
       </Row>
     </Tab.Container>
-             </div>
+             </motion.div>
            
          <Orcamento_mapa/>
 

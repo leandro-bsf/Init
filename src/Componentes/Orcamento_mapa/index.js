@@ -4,12 +4,15 @@ import Button from 'react-bootstrap/Button';
 import './style.css'
 import Roda_pe from "../Roda_pe";
 import  '../Style_universal.css'
+import { motion } from "framer-motion"
 import { TbArrowBigRightLinesFilled } from "react-icons/tb";
 export default function Orcamento_mapa(){
     return(
         <div>
         <div className="Solici_orcamento"  >
-        <h1>Solicite já seu orçamento!</h1>
+        <motion.h1   whileHover={{ scale: 1.2 }}
+  whileTap={{ scale: 0.8 }}
+  style={{ x: 40 }}>Solicite já seu orçamento!</motion.h1>
         <h3>Solicite seu orçamento agora mesmo que nossos consultores entrarão em contato.</h3>
         <Button variant="info"  className="botao_padrao">Orçamento <TbArrowBigRightLinesFilled  className="seta"  /> </Button>  
      </div>

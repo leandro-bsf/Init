@@ -7,11 +7,11 @@ import Button from 'react-bootstrap/Button';
 import Protopipacao from './imagem/prototipacao.svg'
 import Orcamento_mapa from "../Orcamento_mapa";
 import Roda_pe from "../Roda_pe";
+import Passos from "../Passos";
 import '../Style_universal.css'
 import { motion } from "framer-motion"
-import processo from './imagem/Processo de criação 2.svg'
-import Desenvolvimento from  './imagem/desenvolvimento.gif'
-import prototipacao from  './imagem/prototipacao.gif'
+import '../Style_universal.css'
+
 import Container from 'react-bootstrap/Container';
 export default function Nossos_servicos (){
    const variants = {
@@ -24,17 +24,18 @@ export default function Nossos_servicos (){
     return(
             <div className="Div_nossos_servico">
                     <Menu_Superior />
-                    <motion.div className="titulo_servico"   initial={{ opacity: 0 }}
-  whileInView={{ opacity: 1 }}
+                    <motion.div className="titulo_servico"
 >
-                    <h2 className="Titulo_h2">Nossos Serviços</h2>
+                    <motion.h2 className="Titulo_h2" animate={{ x:-15 }}
+  transition={{ type: "spring", duration: 1.8 }}>Nossos Serviços</motion.h2>
                      <h2 className="sub_Titulo_h2">Entenda mais sobre nossos serviços <span className="Titulo_h2_azul">ofertados.</span></h2>
                     </motion.div>
                 
           <Container className="Container_servicos">
             
                 <Container className="servico_item">
-                   <h1>Prototipação</h1> 
+                   <motion.h1     
+>Prototipação</motion.h1> 
                    <lord-icon
                   src="https://cdn.lordicon.com/vvqcrgre.json"
                   trigger="hover"
@@ -71,7 +72,7 @@ export default function Nossos_servicos (){
                  
           </Container>
           <Container>
-                    <img  src={processo} className="processos"></img>
+                  <Passos />
           </Container>
       <Orcamento_mapa />
       
