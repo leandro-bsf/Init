@@ -1,6 +1,6 @@
 
 import React from "react"
-import  './styles.css'
+ 
 import Menu_Superior from "../Menu_superior/Menu_superior"
 import { IoIosArrowForward } from "react-icons/io";
 import Button from 'react-bootstrap/Button';
@@ -13,7 +13,7 @@ import processo from './imagem/Processo de criação 2.svg'
 import Desenvolvimento from  './imagem/desenvolvimento.gif'
 import prototipacao from  './imagem/prototipacao.gif'
 import Container from 'react-bootstrap/Container';
-export default function Nossos_servicos (){
+export default function servicos (){
    const variants = {
       visible: (custom) => ({
         opacity: 1,
@@ -23,12 +23,12 @@ export default function Nossos_servicos (){
 
     return(
             <div className="Div_nossos_servico">
-                    <Menu_Superior />
+                 
                     <motion.div className="titulo_servico"   initial={{ opacity: 0 }}
   whileInView={{ opacity: 1 }}
 >
-                    <h2 className="Titulo_h2">Nossos Serviços</h2>
-                     <h2 className="sub_Titulo_h2">Entenda mais sobre nossos serviços <span className="Titulo_h2_azul">ofertados.</span></h2>
+                    <h2 className="Titulo_h2">O que fazemos?</h2>
+                     <h2 className="sub_Titulo_h2">Veja quais <span className="Titulo_h2_azul">serviços </span>oferecemos e como podemos ajudar você.</h2>
                     </motion.div>
                 
           <Container className="Container_servicos">
@@ -70,10 +70,7 @@ export default function Nossos_servicos (){
                 </Container>
                  
           </Container>
-          <Container>
-                    <img  src={processo} className="processos"></img>
-          </Container>
-      <Orcamento_mapa />
+
       
             </div>
     )

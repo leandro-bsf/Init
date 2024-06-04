@@ -9,6 +9,7 @@ import { FaCode } from "react-icons/fa6";
 import { motion } from "framer-motion"
 import { IoIosArrowForward } from "react-icons/io";
 import TypeIt from "typeit-react";
+import Servicos from "../servicos/servicos";
 import Depoimentos from "../Depoimentos";
 import Perguntas from "../Perguntas";
 import Roda_pe from "../Roda_pe";
@@ -29,7 +30,7 @@ export default function Home(){
                     
                      <span className="Textos_secao">Transformamos suas ideias em realidades tangíveis com inovação, paixão e excelência. Nosso compromisso é construir um futuro brilhante ao seu lado, oferecendo soluções personalizadas que impulsionam o sucesso e superam expectativas.</span> 
                      <div className="div_buttons_web">
-                     <Button variant="info" className="botao_padrao">Contato<TbArrowBigRightLinesFilled  className="seta" /> </Button>
+                     <Button variant="info" className="botao_padrao">Contato <TbArrowBigRightLinesFilled  className="seta" /> </Button>
                      <Button variant="info" className="botao_padrao">Serviços<TbArrowBigRightLinesFilled  className="seta"/> </Button>
                      </div>
                  
@@ -44,52 +45,9 @@ export default function Home(){
                   </div>
              
          </div>
-         <  div className="Servicos" >
-
-          <h2 className="Titulo_h2">O que fazemos?</h2>
-          <h2 className="sub_Titulo_h2">Veja quais <span className="Titulo_h2_azul" >serviços</span>  oferecemos e como podemos ajudar você.</h2>
-         
-           <motion.div className="Servicos_itens" 
-              initial={{opacity: 0 , x: -50}}
-              whileInView={{opacity: 1 , x: 0}}
-              exit={{opacity: 0}}
-              transition={{duration:  1.9}}>
-               
-          <Card  className="item_card">
-             <TiEdit  className="icone_servicos"/>
-                <Card.Body>
-                   <Card.Title className="titulo_servicos">Prototipação</Card.Title>
-
-                   <TypeIt
-        options={{
-          strings: ["  Arquitetamos seu produto e desenvolvemos o conceito e comunicação visual. Por fim, é feito o design de todas as telas!"],
-          speed: 90,
-          waitUntilVisible: true,
-        }}
-      />
-                
-             </Card.Body>
-          </Card>
-
-          <Card  className="item_card">
-            <FaCode  className="icone_servicos" />
-                <Card.Body>
-                   <Card.Title className="titulo_servicos"  >Desenvolvimento</Card.Title>
-                   <TypeIt
-        options={{
-          strings: ["  Com o design pronto, nosso time de programadores irá dar vida ao projeto. Usando tecnologias de ponta, sua ideia vira realidade."],
-          speed: 90,
-          
-          waitUntilVisible: true,
-        }} />
-
-             </Card.Body>
-          </Card>
-
-        
-           </motion.div >
-          
-           <Button variant="info" className="botao_padrao">Veja mais <TbArrowBigRightLinesFilled  className="seta"/> </Button>
+         <  div className="Servicos" >               
+               < Servicos />
+            <Button variant="info" className="botao_padrao">Veja mais <TbArrowBigRightLinesFilled  className="seta"/> </Button>
           </div> 
 
         

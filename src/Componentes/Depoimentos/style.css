@@ -16,7 +16,7 @@
   
   .card {
     width: 250px; /* 3 cards por linha com 20px de espaçamento entre eles */
-    margin: 5px;
+    margin: auto;
     border: 1px solid #ccc;
     height: auto;
     padding: 5px;
@@ -51,6 +51,7 @@
 .card{
   width:  80%;
   margin: auto;
+  padding: 0px;
   margin-bottom: 10px;
   font-size: 20px;
 }

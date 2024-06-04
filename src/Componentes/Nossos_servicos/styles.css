@@ -46,16 +46,16 @@
 }
 .servico_item{
     display: block;
-    box-shadow: 10px 4px 8px 5px rgba(0, 0, 0, 0.7);
+    box-shadow: 5px 4px 8px 5px rgba(0, 0, 0, 0.7);
     border-radius: 15px;
     border:  4px solid rgb(98, 146, 242);
-    width: 80%;
    font-family: 'Open Sans';
-    height: 80%;
+    height: 400px;
     background-color: white;
     font-size: 17px;
-    margin: 40px;
-    padding: 30px;
+    margin: 15px;
+ 
+ 
 }
 .icone_servico{
     width: 350px;
@@ -95,14 +95,17 @@
     }
     .Container_servicos{
          height: auto;
-        padding: 5px;
-        width: 97%;
+       margin: 15px;
+        width:100%;
     }
     .servico_item{
-       padding: 10px;
+      margin: 0px;
+      padding: 0px;
        width: 90%;
+       height: auto;
        font-size: 15px;
-       margin: 15px;
+       margin-top: 30px;
+       
     }
     .servico_item h1{
         font-size: 25px;

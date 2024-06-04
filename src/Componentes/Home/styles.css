@@ -51,6 +51,7 @@
     align-items: center;
     text-align: center;
     margin: auto;
+    padding-bottom: 50px;
   
 }
 .Servicos_itens{
@@ -159,9 +160,7 @@
     width: 100%;
     height: 350px;
 }
-.Projetos{
-    background-color: rgb(216, 216, 216);
-}
+
 .img_projeto{
     width: 80%;
 }
@@ -209,6 +208,8 @@
     font-size: 20px;
     font-weight: bold;
 }
+
+
 @media (max-width: 750px)  {
     .Div_capa{
         display: block;
@@ -253,13 +254,8 @@
     .div_buttons_web{
         display: none;
     }
-    .Servicos_itens{
-        display: block;
-        align-items: center;
-        padding-top: 20px;
-        width: 100%;
-      
-    }
+    
+    
     .item_card{
         width: 100%;
         margin: auto;
@@ -322,7 +318,8 @@
         padding: 0;
     
     }
-   
+    
+
    
    
    
